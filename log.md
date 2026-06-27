@@ -1,0 +1,62 @@
+# Change Log
+
+Append-only. One line per change: ISO 8601 timestamp | type | description.
+Types: ADD, UPDATE, GUIDE, NEIGHBORHOOD, REMOVE.
+
+- 2026-06-27T00:00:00Z | ADD | Initial scaffold — README, CLAUDE.md, index.md, template
+- 2026-06-27T00:00:00Z | ADD | places/museum-cmom.md (Children's Museum of Manhattan)
+- 2026-06-27T00:00:00Z | ADD | places/playground-ancient-central-park.md (Ancient Playground)
+- 2026-06-27T00:00:00Z | GUIDE | guides/rainy-day.md — created, added CMOM
+- 2026-06-27T00:00:00Z | GUIDE | guides/free-activities.md — created, added Ancient Playground
+- 2026-06-27T01:00:00Z | ADD | places/museum-brooklyn-childrens.md (Brooklyn Children's Museum)
+- 2026-06-27T01:00:00Z | ADD | places/playground-pier-6-bbp.md (Pier 6 Playground, Brooklyn Bridge Park)
+- 2026-06-27T01:00:00Z | ADD | places/attraction-janes-carousel.md (Jane's Carousel)
+- 2026-06-27T01:00:00Z | ADD | places/event-storytime-nypl.md (NYPL Toddler Story Time)
+- 2026-06-27T01:00:00Z | NEIGHBORHOOD | created neighborhood-uws, -ues, -dumbo, -crown-heights
+- 2026-06-27T01:00:00Z | GUIDE | rainy-day.md — added Brooklyn Children's Museum, Jane's Carousel, NYPL story time
+- 2026-06-27T01:00:00Z | GUIDE | free-activities.md — added Pier 6, NYPL story time
+- 2026-06-27T01:00:00Z | UPDATE | index.md — added attractions section + 4 neighborhood links, refreshed stats
+- 2026-06-27T02:00:00Z | ADD | places/museum-nysci.md (New York Hall of Science) — Queens
+- 2026-06-27T02:00:00Z | ADD | places/attraction-bronx-zoo.md (Bronx Zoo) — Bronx
+- 2026-06-27T02:00:00Z | ADD | places/restaurant-bubbys-dumbo.md (Bubby's DUMBO)
+- 2026-06-27T02:00:00Z | NEIGHBORHOOD | created neighborhood-corona, -bronx-park; added Bubby's to -dumbo
+- 2026-06-27T02:00:00Z | UPDATE | added lat/lng to all places + template; rainy-day guide += NYSCI
+- 2026-06-27T02:00:00Z | ADD | build_map.py + map/map.html + generated map/places.js (8 places) — interactive Leaflet map
+- 2026-06-27T02:00:00Z | UPDATE | index.md — 8 places, 6 neighborhoods; README + CLAUDE.md document the map
+- 2026-06-27T03:00:00Z | NEIGHBORHOOD | created neighborhood-williamsburg.md (home base) with walkable picks
+- 2026-06-27T03:00:00Z | ADD | places/playground-domino-park.md (Domino Park) — Williamsburg
+- 2026-06-27T03:00:00Z | ADD | places/playground-mccarren-park.md (McCarren Park) — Williamsburg
+- 2026-06-27T03:00:00Z | ADD | places/event-storytime-bpl-williamsburg.md (BPL story time) — Williamsburg
+- 2026-06-27T03:00:00Z | ADD | places/event-smorgasburg.md (Smorgasburg) — Williamsburg
+- 2026-06-27T03:00:00Z | ADD | places/class-music-together-williamsburg.md — fills Classes category
+- 2026-06-27T03:00:00Z | GUIDE | free-activities + rainy-day — added Williamsburg entries, walkable tags
+- 2026-06-27T03:00:00Z | UPDATE | index.md — home-base header, 13 places/events, 7 neighborhoods; rebuilt map (13 pins)
+- 2026-06-27T04:00:00Z | ADD | places/indoor-play-canopy.md (The Canopy NYC) — fills indoor-play category [web-sourced, verify]
+- 2026-06-27T04:00:00Z | ADD | places/restaurant-cafe-mogador.md (Café Mogador) — Williamsburg [web-sourced, verify]
+- 2026-06-27T04:00:00Z | ADD | guides/williamsburg-weekends.md — dated upcoming-weekend events [web-sourced 2026-06-27, time-sensitive, verify]
+- 2026-06-27T04:00:00Z | QUERY | "events in Williamsburg next few weekends" → web search; compiled markets, Play in the Square, Giglio Feast, Boogie Baby; flagged one-off dates for verification
+- 2026-06-27T04:00:00Z | UPDATE | neighborhood-williamsburg, rainy-day, index — linked Canopy/Mogador/weekends; rebuilt map (15 pins)
+- 2026-06-27T05:00:00Z | ADD | build_site.py — renders wiki to styled site/ (27 pages), rewrites .md→.html, nav + map
+- 2026-06-27T05:00:00Z | ADD | .github/workflows/pages.yml — auto-build + deploy to GitHub Pages on push to main
+- 2026-06-27T05:00:00Z | UPDATE | README + CLAUDE.md document the site build + Pages setup; .gitignore += site/
+- 2026-06-27T06:00:00Z | CONTRADICTION | The Play Lab closed Oct 2025; Metropolitan Rec Center pool closed for renovation — removed as active options (web-sourced)
+- 2026-06-27T06:00:00Z | UPDATE | map: refactored to shared map.js + map.css; added borough maps (manhattan/brooklyn/queens.html) + switcher; build_map adds parking
+- 2026-06-27T06:00:00Z | ADD | Williamsburg: playground-bushwick-inlet-park, restaurant-afuri-williamsburg
+- 2026-06-27T06:00:00Z | ADD | Manhattan: museum-amnh, attraction-central-park-zoo, restaurant-alices-tea-cup-uws, restaurant-shake-shack-madison-sq
+- 2026-06-27T06:00:00Z | ADD | Brooklyn: museum-nyc-transit-museum, attraction-prospect-park, garden-brooklyn-botanic
+- 2026-06-27T06:00:00Z | ADD | Queens: attraction-queens-county-farm (free parking), playground-gantry-plaza-lic
+- 2026-06-27T06:00:00Z | NEIGHBORHOOD | created central-park, flatiron, downtown-brooklyn, prospect-park, long-island-city, glen-oaks
+- 2026-06-27T06:00:00Z | UPDATE | index (26 places, 13 nbhds, 3 borough maps, kids 3&5 + car note); guides += new entries; weekends guide += Macaroni KID + Mommy Poppins; added parking field for car
+- 2026-06-27T07:00:00Z | ADD | build_boroughs.py + map/boroughs.js — vector borough basemap (fixes "no map outline"; no tile dependency)
+- 2026-06-27T07:00:00Z | UPDATE | map.js now draws borough outlines as basemap + borough labels; removed raster-tile dependency
+- 2026-06-27T07:00:00Z | UPDATE | site-wide pink theme + Google Sans/Poppins font (build_site.py CSS + map/map.css)
+- 2026-06-27T08:00:00Z | FIX | font not loading — vendored Poppins locally (assets/fonts/, from npm @fontsource/poppins) instead of Google Fonts CDN @import; site links it (depth-aware), map.css imports it. Verified faces load.
+- 2026-06-27T09:00:00Z | ADD | Queens: attraction-queens-zoo, attraction-flushing-meadows, attraction-socrates-sculpture-park
+- 2026-06-27T09:00:00Z | ADD | Bronx: garden-nybg, museum-bronx-childrens, garden-wave-hill
+- 2026-06-27T09:00:00Z | NEIGHBORHOOD | created mott-haven, riverdale; updated corona/LIC/bronx-park hubs
+- 2026-06-27T09:00:00Z | ADD | guides/car-day-trips.md — drivable outings + parking quick-reference + ready-made days
+- 2026-06-27T09:00:00Z | UPDATE | index (32 places, 15 nbhds, 4 guides); free + rainy-day guides += new entries
+- 2026-06-27T10:00:00Z | UPDATE | toddler-friendly fonts — vendored Fredoka (headings) + Nunito (body), replaced Poppins; updated build_site CSS + map.css
+- 2026-06-27T11:00:00Z | ADD | Manhattan: high-line, little-island, teardrop-park, the-battery-seaglass, intrepid, central-park-carousel, heckscher, washington-square, serendipity-3
+- 2026-06-27T11:00:00Z | NEIGHBORHOOD | created chelsea, battery-park-city, financial-district, hells-kitchen, greenwich-village; updated central-park + UES hubs
+- 2026-06-27T11:00:00Z | UPDATE | index (41 places, 20 nbhds); free-activities guide += Manhattan parks

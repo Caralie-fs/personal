@@ -1,0 +1,21 @@
+/* Vendored toddler-friendly fonts (from npm @fontsource) — load locally, no CDN.
+   Fredoka = playful rounded display (headings/nav); Nunito = rounded, readable
+   body. Paths are relative to this file. */
+
+/* Fredoka — headings / UI */
+@font-face { font-family:'Fredoka'; font-style:normal; font-weight:400; font-display:swap;
+  src:url('files/fredoka-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family:'Fredoka'; font-style:normal; font-weight:500; font-display:swap;
+  src:url('files/fredoka-latin-500-normal.woff2') format('woff2'); }
+@font-face { font-family:'Fredoka'; font-style:normal; font-weight:600; font-display:swap;
+  src:url('files/fredoka-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family:'Fredoka'; font-style:normal; font-weight:700; font-display:swap;
+  src:url('files/fredoka-latin-700-normal.woff2') format('woff2'); }
+
+/* Nunito — body text */
+@font-face { font-family:'Nunito'; font-style:normal; font-weight:400; font-display:swap;
+  src:url('files/nunito-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family:'Nunito'; font-style:normal; font-weight:600; font-display:swap;
+  src:url('files/nunito-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family:'Nunito'; font-style:normal; font-weight:700; font-display:swap;
+  src:url('files/nunito-latin-700-normal.woff2') format('woff2'); }

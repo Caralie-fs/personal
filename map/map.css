@@ -1,0 +1,35 @@
+@import url('../assets/fonts/fonts.css');
+
+:root { --pink:#c2185b; --pink-soft:#f7c4dd; --pink-bg:#fdf2f7; }
+html, body { height: 100%; margin: 0;
+  font-family: 'Nunito',system-ui,-apple-system,sans-serif; }
+/* water/background behind the vector boroughs */
+#map { position: absolute; inset: 0; background: #dce9f0; }
+.panel {
+  position: absolute; top: 12px; right: 12px; z-index: 1000;
+  background: #fff; border-radius: 12px; box-shadow: 0 2px 10px rgba(194,24,91,.20);
+  padding: 12px 14px; max-width: 240px; font-size: 14px; border: 1px solid var(--pink-soft);
+}
+.panel h1 { font-size: 16px; margin: 0 0 8px; color: var(--pink); font-weight: 600;
+  font-family: 'Fredoka','Nunito',system-ui,sans-serif; letter-spacing: .2px; }
+#boroughs .tab, .borough-label { font-family: 'Fredoka','Nunito',system-ui,sans-serif; }
+.panel h1 a { color: inherit; text-decoration: none; }
+#boroughs { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }
+#boroughs .tab {
+  font-size: 12px; padding: 3px 9px; border-radius: 999px; text-decoration: none;
+  background: #fce4ef; color: var(--pink); border: 1px solid var(--pink-soft); font-weight: 500;
+}
+#boroughs .tab:hover { background: #f9d2e3; }
+#boroughs .tab.active { background: var(--pink); color: #fff; border-color: var(--pink); }
+.panel label { display: flex; align-items: center; gap: 7px; cursor: pointer; margin: 3px 0; }
+.panel .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; flex: none; }
+.panel .count { color: #b08; margin-left: auto; font-variant-numeric: tabular-nums; }
+/* borough name labels on the vector basemap */
+.borough-label { background: none; border: none; box-shadow: none;
+  color: #a01050; font-weight: 600; font-size: 13px; text-shadow: 0 1px 2px rgba(255,255,255,.9); }
+.leaflet-popup-content { margin: 10px 12px; line-height: 1.4;
+  font-family: 'Nunito',system-ui,sans-serif; }
+.leaflet-popup-content .title { font-weight: 600; font-size: 15px; color: var(--pink);
+  font-family: 'Fredoka','Nunito',system-ui,sans-serif; }
+.leaflet-popup-content .meta { color: #555; font-size: 13px; margin-top: 3px; }
+.leaflet-popup-content a.more { display: inline-block; margin-top: 6px; font-size: 13px; color: var(--pink); }
