@@ -2,13 +2,15 @@
 name: Mott Haven
 type: neighborhood
 borough: Bronx
-updated: 2026-06-27
+updated: 2026-07-02
 tags: [neighborhood, bronx]
 ---
 South Bronx neighborhood, closest part of the Bronx to Williamsburg — home to
 the Bronx Children's Museum.
 
 ## Places here
+
+### 🎨 Museums
 - [Bronx Children's Museum](museum-bronx-childrens.md) — hands-on, nature-themed · `$$` · indoor
 
 ## Notes
