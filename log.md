@@ -89,3 +89,4 @@ Types: ADD, UPDATE, GUIDE, NEIGHBORHOOD, REMOVE.
 - 2026-07-02T23:00:00Z | GUIDE | free-activities.md — built out Free Museum Hours (Brooklyn Children's, AMNH resident PWYW, NYSCI, CMOM, SI Children's, BBG); all verify-flagged; reciprocal backlinks added to those pages
 - 2026-07-02T23:00:00Z | GUIDE | williamsburg-weekends.md — pruned past weekend (Jun 27–28); Jul 4–5 is now "this weekend"; bumped updated date
 - 2026-07-02T23:00:00Z | UPDATE | index (70 places, Brooklyn card 35)
+- 2026-07-02T23:30:00Z | GUIDE | commute-aberdeen-nj.md — drastically condensed: one-line stops (dropped nested detail sub-bullets + per-leg intro paragraphs), trimmed intro description + cheatsheet; 102→51 lines
