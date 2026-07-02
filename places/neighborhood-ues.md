@@ -17,3 +17,6 @@ Central Park's east side, with classic playgrounds and the big museums nearby.
 
 ## Notes
 - Easy to combine a playground morning with a short museum stop.
+
+## Relationships
+- Part of **[Manhattan](borough-manhattan.md)**

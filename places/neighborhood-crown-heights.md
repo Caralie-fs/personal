@@ -14,3 +14,6 @@ Central Brooklyn neighborhood, home to a major children's museum.
 
 ## Notes
 - Pair a museum morning with nearby parks (add as you scout them).
+
+## Relationships
+- Part of **[Brooklyn](borough-brooklyn.md)**

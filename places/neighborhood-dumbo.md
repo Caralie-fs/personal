@@ -21,3 +21,6 @@ views. One of the best toddler-day stretches in the city on nice weather.
 
 ## Notes
 - Chain Pier 6 → waterfront walk → Jane's Carousel → lunch at Bubby's for a full morning.
+
+## Relationships
+- Part of **[Brooklyn](borough-brooklyn.md)**

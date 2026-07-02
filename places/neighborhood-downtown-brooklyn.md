@@ -15,3 +15,6 @@ Transit hub bordering Brooklyn Heights — home to the Transit Museum.
 ## Notes
 - Easy to combine with a Brooklyn Heights waterfront / DUMBO walk.
 - By car: metered street + downtown garages.
+
+## Relationships
+- Part of **[Brooklyn](borough-brooklyn.md)**

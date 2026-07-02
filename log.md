@@ -63,3 +63,7 @@ Types: ADD, UPDATE, GUIDE, NEIGHBORHOOD, REMOVE.
 - 2026-07-02T00:00:00Z | UPDATE | index.md — reorganized neighborhood-first: borough → neighborhood → category sections (museums, playgrounds & parks, attractions & animals, indoor play, story times, classes, food)
 - 2026-07-02T00:00:00Z | UPDATE | all 20 neighborhood pages — "Places here" regrouped into the same category sections; cross-link fixes (Williamsburg += Bushwick Inlet, Afuri; UWS += AMNH, Alice's Tea Cup)
 - 2026-07-02T00:00:00Z | FIX | replaced stock jekyll-gh-pages.yml with pages.yml (custom build_map.py + build_site.py deploy) — removes the "personal" repo-name header Jekyll put on every page
+- 2026-07-02T17:00:00Z | ADD | borough hub pages — places/borough-{brooklyn,manhattan,queens,bronx}.md with embedded borough map + neighborhood/category listings (moved from index)
+- 2026-07-02T17:00:00Z | ADD | map/bronx.html — Bronx borough map (geometry already in boroughs.js); switcher in map.js += Bronx tab
+- 2026-07-02T17:00:00Z | UPDATE | index.md — homepage is now a borough card grid (styled via build_site.py .borough-cards/.bcard CSS); per-borough map links moved onto borough pages
+- 2026-07-02T17:00:00Z | UPDATE | all 20 neighborhood pages — reciprocal "Part of [borough hub]" link; README + CLAUDE.md note the fifth (Bronx) map

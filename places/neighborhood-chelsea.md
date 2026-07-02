@@ -17,3 +17,6 @@ Market for indoor food.
 ## Notes
 - Chain High Line → Chelsea Market (indoor food) → Little Island.
 - Transit/ferry only — no good parking.
+
+## Relationships
+- Part of **[Manhattan](borough-manhattan.md)**

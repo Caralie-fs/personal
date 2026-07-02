@@ -19,3 +19,6 @@ and easy stroller streets.
 
 ## Notes
 - Central Park's west-side playgrounds are close by (add as you visit them).
+
+## Relationships
+- Part of **[Manhattan](borough-manhattan.md)**

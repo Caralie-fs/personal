@@ -15,3 +15,6 @@ Midtown-south area around Madison Square Park — green space and easy eats.
 ## Notes
 - Madison Square Park has a playground and open lawns.
 - Transit only — no parking.
+
+## Relationships
+- Part of **[Manhattan](borough-manhattan.md)**

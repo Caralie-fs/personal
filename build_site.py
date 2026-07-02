@@ -39,10 +39,18 @@ ul{padding-left:1.4em;} li{margin:.2em 0;} hr{border:none;border-top:1px solid #
 .badge{font-size:12px;background:#ffe3f1;color:#b5176e;border-radius:999px;padding:2px 10px;}
 .verify{background:#fff8c5;border:1px solid #eac54f;border-radius:8px;padding:10px 14px;margin:14px 0;font-size:13px;} .verify b{color:#7d4e00;}
 blockquote{margin:0;padding:0 1em;color:#8a6a78;border-left:.25em solid #f3c6da;}
+.borough-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:18px 0;}
+.bcard{display:block;background:#fdf2f7;border:2px solid #f3c6da;border-radius:14px;padding:18px 16px;text-decoration:none;
+  box-shadow:0 2px 8px rgba(194,24,91,.07);transition:transform .12s ease,box-shadow .12s ease,border-color .12s ease;}
+.bcard:hover{transform:translateY(-3px);box-shadow:0 6px 16px rgba(194,24,91,.18);border-color:#c2185b;text-decoration:none;}
+.bcard .bcard-emoji{font-size:30px;line-height:1;}
+.bcard .bcard-name{font-family:'Fredoka','Nunito',system-ui,sans-serif;font-weight:600;font-size:19px;color:#7a1144;margin-top:8px;}
+.bcard .bcard-sub{font-size:12.5px;color:#8a6a78;margin-top:4px;line-height:1.4;}
+.map-embed{width:100%;height:420px;border:2px solid #f3c6da;border-radius:12px;margin:12px 0;background:#fdf2f7;}
 """
 
 EMOJI = {"playground":"🛝","museum":"🎨","restaurant":"🍴","library":"📚","class":"🎵",
-         "indoor-play":"🏠","pool":"🏊","other":"📍","neighborhood":"📍"}
+         "indoor-play":"🏠","pool":"🏊","other":"📍","neighborhood":"📍","borough":"🗽"}
 
 def split_fm(text):
     if text.startswith("---"):

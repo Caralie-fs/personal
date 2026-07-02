@@ -15,3 +15,6 @@ Eastern Queens — home to the Queens County Farm Museum. A car destination.
 ## Notes
 - **Best reached by car** — free on-site parking and a ~30–45 min drive from
   Williamsburg. Transit is a long haul out here.
+
+## Relationships
+- Part of **[Queens](borough-queens.md)**

@@ -20,3 +20,6 @@ The park itself — zoo, playgrounds, and open space in the middle of Manhattan.
 - Chain Heckscher Playground → Carousel → Zoo for a full park day.
 - [Ancient Playground](playground-ancient-central-park.md) is on the UES side.
 - By car: no good parking — take transit and walk in.
+
+## Relationships
+- Part of **[Manhattan](borough-manhattan.md)**

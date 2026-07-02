@@ -14,3 +14,6 @@ West Midtown along the Hudson — home to the Intrepid Museum.
 
 ## Notes
 - One of the few Manhattan spots with workable (paid) pier parking.
+
+## Relationships
+- Part of **[Manhattan](borough-manhattan.md)**
