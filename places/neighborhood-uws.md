@@ -15,7 +15,7 @@ and easy stroller streets.
 - [American Museum of Natural History (AMNH)](museum-amnh.md) — dinosaurs + whales, big-day outing · `$$$`
 
 ### 🍴 Kid-Friendly Food
-- [Alice's Tea Cup (UWS)](restaurant-alices-tea-cup-uws.md) — whimsical tea house, brunch · `$$`
+- [Alice's Tea Cup](restaurant-alices-tea-cup-uws.md) — whimsical tea house, brunch · `$$`
 
 ## Notes
 - Central Park's west-side playgrounds are close by (add as you visit them).

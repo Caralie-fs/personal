@@ -74,3 +74,8 @@ Types: ADD, UPDATE, GUIDE, NEIGHBORHOOD, REMOVE.
 - 2026-07-02T18:00:00Z | GUIDE | rainy-day += 15 indoor entries (+ fixed Canopy misfiled under Bronx); car-day-trips += SI + Coney days, beyond-the-city notes
 - 2026-07-02T18:00:00Z | UPDATE | redesign — Space Grotesk + Inter (vendored, replacing Fredoka/Nunito), modern neutral theme w/ indigo accent across site CSS + map; CMA excluded (closed permanently Oct 2024)
 - 2026-07-02T18:00:00Z | UPDATE | index (59 places, 5 boroughs, 30 nbhds, 5 guides); map rebuilt (58 pins)
+- 2026-07-02T20:00:00Z | ADD | Williamsburg playgrounds: william-sheridan, cooper-park, martinez, jaime-campiz, jacobs-ladder (web-sourced coords approx, verify)
+- 2026-07-02T20:00:00Z | ADD | indoor-play-tiny-hearts-williamsburg (Tiny Hearts Play Cafe, 123 Hope St) — requested; free-activities/rainy-day + Wburg hub updated
+- 2026-07-02T20:00:00Z | ADD | restaurant-teddys-williamsburg (Teddy's Bar & Grill, 96 Berry) + restaurant-kelloggs-diner-williamsburg (Kellogg's Diner, 518 Metropolitan) — requested
+- 2026-07-02T20:00:00Z | UPDATE | stripped redundant "(neighborhood)" parentheticals from listings under matching neighborhood headings (Afuri, Mogador, Smorgasburg, Music Together, Alice's Tea Cup, Bubby's, Recess, Space Club x2, Heckscher); kept acronyms/parks/sub-areas + guide (borough-grouped) labels
+- 2026-07-02T20:00:00Z | UPDATE | index (67 places, Brooklyn card 32); free-activities += 5 playgrounds; rainy-day += Tiny Hearts; map rebuilt

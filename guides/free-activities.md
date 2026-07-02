@@ -18,6 +18,16 @@ times, sprinklers, and free museum hours.
   Williamsburg, big park + summer pool. **(walkable from home)**
 - [Bushwick Inlet Park](../places/playground-bushwick-inlet-park.md) —
   Williamsburg, fields + playground. **(walkable from home)**
+- [William Sheridan Playground](../places/playground-william-sheridan.md) —
+  Williamsburg south side, sprinklers. **(walkable from home)**
+- [Cooper Park](../places/playground-cooper-park.md) — East Williamsburg;
+  playground, sprinklers, dog run. **(walkable from home)**
+- [Martinez Playground](../places/playground-martinez.md) — Williamsburg,
+  off the Graham Ave L, sprinklers. **(walkable from home)**
+- [Jaime Campiz Playground](../places/playground-jaime-campiz.md) —
+  Williamsburg, turf field + play equipment. **(walkable from home)**
+- [Jacob's Ladder Playground](../places/playground-jacobs-ladder.md) —
+  south Williamsburg, near the Kent Ave greenway. **(walkable from home)**
 - [Gantry Plaza State Park](../places/playground-gantry-plaza-lic.md) — LIC
   waterfront playgrounds + skyline views. **(one ferry stop / short drive)**
 - [Flushing Meadows–Corona Park](../places/attraction-flushing-meadows.md) —

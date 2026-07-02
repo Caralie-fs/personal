@@ -17,10 +17,10 @@ views. One of the best toddler-day stretches in the city on nice weather.
 - [Jane's Carousel](attraction-janes-carousel.md) — quick ride, weather-flexible
 
 ### 🏠 Indoor Play Spaces
-- [Recess (DUMBO)](indoor-play-recess-dumbo.md) — designed playscape, 6mo–6yr · `$$` · rainy-day anchor
+- [Recess](indoor-play-recess-dumbo.md) — designed playscape, 6mo–6yr · `$$` · rainy-day anchor
 
 ### 🍴 Kid-Friendly Food
-- [Bubby's (DUMBO)](restaurant-bubbys-dumbo.md) — kid-friendly comfort food, refuel stop
+- [Bubby's](restaurant-bubbys-dumbo.md) — kid-friendly comfort food, refuel stop
 
 ## Notes
 - Chain Pier 6 → waterfront walk → Jane's Carousel → lunch at Bubby's for a full morning.

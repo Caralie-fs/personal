@@ -14,21 +14,29 @@ with toddler options, most of them walkable or a short stroller push.
 - [Domino Park Playground](playground-domino-park.md) — waterfront playground + summer water play · free · outdoor
 - [McCarren Park Playground](playground-mccarren-park.md) — big park, fields, summer pool · free · outdoor
 - [Bushwick Inlet Park](playground-bushwick-inlet-park.md) — waterfront fields + playground · free · outdoor
+- [William Sheridan Playground](playground-william-sheridan.md) — south-side neighborhood playground + sprinklers · free · outdoor
+- [Cooper Park](playground-cooper-park.md) — East Williamsburg green: playground, sprinklers, dog run · free · outdoor
+- [Martinez Playground](playground-martinez.md) — off the Graham Ave L, sprinklers · free · outdoor
+- [Jaime Campiz Playground](playground-jaime-campiz.md) — turf field + play equipment · free · outdoor
+- [Jacob's Ladder Playground](playground-jacobs-ladder.md) — quiet south-side spot near the Kent Ave greenway · free · outdoor
 
 ### 🏠 Indoor Play Spaces
 - [The Canopy NYC](indoor-play-canopy.md) — indoor baby/toddler playspace · `$$$` · rainy/winter go-to
 - [Twinkle Playspace](indoor-play-twinkle-williamsburg.md) — imaginative sets, ages 0–6 · `$$` · reservations
+- [Tiny Hearts Play Cafe](indoor-play-tiny-hearts-williamsburg.md) — Montessori play cafe, ages 0–6 · `$$` · reservations
 
 ### 📚 Library Story Times
 - [BPL Williamsburg Story Time](event-storytime-bpl-williamsburg.md) — free indoor library story time · recurring
 
 ### 🎵 Classes
-- [Music Together (Williamsburg area)](class-music-together-williamsburg.md) — parent-and-toddler music class · indoor
+- [Music Together](class-music-together-williamsburg.md) — parent-and-toddler music class · indoor
 
 ### 🍴 Kid-Friendly Food
-- [Afuri Ramen (Williamsburg)](restaurant-afuri-williamsburg.md) — ramen with a kids menu · `$$`
-- [Smorgasburg (Williamsburg)](event-smorgasburg.md) — weekend open-air food market · seasonal
-- [Café Mogador (Williamsburg)](restaurant-cafe-mogador.md) — kid-friendly Moroccan, high chairs · `$$`
+- [Afuri Ramen](restaurant-afuri-williamsburg.md) — ramen with a kids menu · `$$`
+- [Café Mogador](restaurant-cafe-mogador.md) — kid-friendly Moroccan, high chairs · `$$`
+- [Teddy's Bar & Grill](restaurant-teddys-williamsburg.md) — oldest bar in Williamsburg, family brunch · `$$`
+- [Kellogg's Diner](restaurant-kelloggs-diner-williamsburg.md) — revamped 24-hr diner, all-day comfort food · `$$`
+- [Smorgasburg](event-smorgasburg.md) — weekend open-air food market · seasonal
 
 ## Upcoming events
 - 📅 [Williamsburg Weekends](../guides/williamsburg-weekends.md) — dated

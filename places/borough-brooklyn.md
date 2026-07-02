@@ -20,21 +20,29 @@ the Brooklyn Bridge Park waterfront, a children's museum, and Prospect Park.
 - [Domino Park Playground](playground-domino-park.md) — free · waterfront · water play
 - [McCarren Park Playground](playground-mccarren-park.md) — free · big park · summer pool
 - [Bushwick Inlet Park](playground-bushwick-inlet-park.md) — free · fields + playground
+- [William Sheridan Playground](playground-william-sheridan.md) — free · south side · sprinklers
+- [Cooper Park](playground-cooper-park.md) — free · East Williamsburg · playground + dog run
+- [Martinez Playground](playground-martinez.md) — free · off the Graham Ave L · sprinklers
+- [Jaime Campiz Playground](playground-jaime-campiz.md) — free · turf field + play equipment
+- [Jacob's Ladder Playground](playground-jacobs-ladder.md) — free · quiet south-side · greenway
 
 ### 🏠 Indoor Play Spaces
 - [The Canopy NYC](indoor-play-canopy.md) — `$$$` · baby/toddler · rainy-day
 - [Twinkle Playspace](indoor-play-twinkle-williamsburg.md) — `$$` · imaginative sets · ages 0–6 · walkable
+- [Tiny Hearts Play Cafe](indoor-play-tiny-hearts-williamsburg.md) — `$$` · Montessori play cafe · ages 0–6
 
 ### 📚 Library Story Times
 - [BPL Williamsburg Story Time](event-storytime-bpl-williamsburg.md) — free · indoor · recurring
 
 ### 🎵 Classes
-- [Music Together (Williamsburg area)](class-music-together-williamsburg.md) — `$$$` · music · indoor
+- [Music Together](class-music-together-williamsburg.md) — `$$$` · music · indoor
 
 ### 🍴 Kid-Friendly Food
-- [Afuri Ramen (Williamsburg)](restaurant-afuri-williamsburg.md) — `$$` · ramen · kids menu
-- [Café Mogador (Williamsburg)](restaurant-cafe-mogador.md) — `$$` · Moroccan · high chairs
-- [Smorgasburg (Williamsburg)](event-smorgasburg.md) — `$$` · weekend food market · outdoor
+- [Afuri Ramen](restaurant-afuri-williamsburg.md) — `$$` · ramen · kids menu
+- [Café Mogador](restaurant-cafe-mogador.md) — `$$` · Moroccan · high chairs
+- [Teddy's Bar & Grill](restaurant-teddys-williamsburg.md) — `$$` · oldest bar in Wburg · family brunch
+- [Kellogg's Diner](restaurant-kelloggs-diner-williamsburg.md) — `$$` · 24-hr diner · all-day comfort food
+- [Smorgasburg](event-smorgasburg.md) — `$$` · weekend food market · outdoor
 
 ## [Brooklyn Heights / DUMBO](neighborhood-dumbo.md)
 
@@ -45,10 +53,10 @@ the Brooklyn Bridge Park waterfront, a children's museum, and Prospect Park.
 - [Jane's Carousel](attraction-janes-carousel.md) — `$` · weather-flexible · quick
 
 ### 🏠 Indoor Play Spaces
-- [Recess (DUMBO)](indoor-play-recess-dumbo.md) — `$$` · designed playscape · 6mo–6yr
+- [Recess](indoor-play-recess-dumbo.md) — `$$` · designed playscape · 6mo–6yr
 
 ### 🍴 Kid-Friendly Food
-- [Bubby's (DUMBO)](restaurant-bubbys-dumbo.md) — `$$` · comfort food · brunch
+- [Bubby's](restaurant-bubbys-dumbo.md) — `$$` · comfort food · brunch
 
 ## [Downtown Brooklyn](neighborhood-downtown-brooklyn.md)
 
@@ -69,12 +77,12 @@ the Brooklyn Bridge Park waterfront, a children's museum, and Prospect Park.
 ## [Greenpoint](neighborhood-greenpoint.md)
 
 ### 🏠 Indoor Play Spaces
-- [Space Club (Greenpoint)](indoor-play-space-club-greenpoint.md) — `$$$` · star ball pit · design-forward · drop-in
+- [Space Club](indoor-play-space-club-greenpoint.md) — `$$$` · star ball pit · design-forward · drop-in
 
 ## [Fort Greene](neighborhood-fort-greene.md)
 
 ### 🏠 Indoor Play Spaces
-- [Space Club (Fort Greene)](indoor-play-space-club-fort-greene.md) — `$$$` · 3 floors + rooftop · cafe · drop-in
+- [Space Club](indoor-play-space-club-fort-greene.md) — `$$$` · 3 floors + rooftop · cafe · drop-in
 
 ## [Sunset Park](neighborhood-sunset-park.md)
 

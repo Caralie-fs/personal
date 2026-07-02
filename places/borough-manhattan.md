@@ -21,7 +21,7 @@ kid outings, an easy L-train or ferry ride from Williamsburg.
 - [American Museum of Natural History (AMNH)](museum-amnh.md) — `$$$` · dinosaurs · big-day
 
 ### 🍴 Kid-Friendly Food
-- [Alice's Tea Cup (UWS)](restaurant-alices-tea-cup-uws.md) — `$$` · whimsical · brunch
+- [Alice's Tea Cup](restaurant-alices-tea-cup-uws.md) — `$$` · whimsical · brunch
 
 ## [Upper East Side](neighborhood-ues.md)
 
@@ -34,7 +34,7 @@ kid outings, an easy L-train or ferry ride from Williamsburg.
 ## [Central Park](neighborhood-central-park.md)
 
 ### 🛝 Playgrounds & Parks
-- [Heckscher Playground (Central Park)](playground-heckscher.md) — free · largest · water play
+- [Heckscher Playground](playground-heckscher.md) — free · largest · water play
 
 ### 🎠 Attractions & Animals
 - [Central Park Zoo](attraction-central-park-zoo.md) — `$$` · small/walkable · half-day
