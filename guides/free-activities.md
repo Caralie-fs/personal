@@ -30,6 +30,8 @@ times, sprinklers, and free museum hours.
   south Williamsburg, near the Kent Ave greenway. **(walkable from home)**
 - [Gantry Plaza State Park](../places/playground-gantry-plaza-lic.md) — LIC
   waterfront playgrounds + skyline views. **(one ferry stop / short drive)**
+- [Hunter's Point South Park](../places/playground-hunters-point-south-lic.md) —
+  LIC waterfront playground + skyline views. **(one ferry stop / short drive)**
 - [Flushing Meadows–Corona Park](../places/attraction-flushing-meadows.md) —
   huge Queens park, playgrounds + fountain. **(car day-trip)**
 - [Socrates Sculpture Park](../places/attraction-socrates-sculpture-park.md) —
@@ -89,6 +91,12 @@ on one.** (Reserve ahead where noted; free slots fill up.)
   evenings in the past). **(UWS)**
 - [Staten Island Children's Museum](../places/museum-si-childrens-museum.md) —
   ask about **free / discount community days**. Verify. **(Snug Harbor)**
+- [MoMA PS1](../places/museum-moma-ps1-lic.md) — **free for all** (as of Jan 2026);
+  contemporary art + courtyard. **(LIC)**
+- [Queens Museum](../places/museum-queens-museum.md) — **free Friday evenings**
+  for NY-state residents (book ahead). **(Corona)**
+- [Museum of the Moving Image](../places/museum-moving-image-astoria.md) — **free
+  Thursday afternoons**; interactive film museum + Muppets. **(Astoria)**
 
 Garden with a free window (not a museum, but same idea):
 - [Brooklyn Botanic Garden](../places/garden-brooklyn-botanic.md) — **free

@@ -100,3 +100,6 @@ Types: ADD, UPDATE, GUIDE, NEIGHBORHOOD, REMOVE.
 - 2026-07-03T00:30:00Z | ADD | playground-carroll-park + store-books-are-magic (Prospect Places guide); build_site EMOJI += store
 - 2026-07-03T00:30:00Z | NEIGHBORHOOD | created governors-island, chinatown, carroll-gardens; free-activities += free ferry/island section + Manhattan playgrounds
 - 2026-07-03T00:30:00Z | UPDATE | index recomputed — 108 places, 34 neighborhoods; map rebuilt (107 pins). Source URLs blocked from direct fetch — compiled via web search + cross-check
+- 2026-07-03T01:30:00Z | ADD | Queens/LIC sweep (6): playground-hunters-point-south-lic, museum-moma-ps1-lic (free), museum-noguchi-lic, museum-queens-museum, museum-moving-image-astoria, garden-queens-botanical (+neighborhood-flushing); free-activities += HP South Park + free museum hours (MoMA PS1/Queens Museum/MoMI)
+- 2026-07-03T01:30:00Z | FEATURE | searchable database — build_site.py generates an interactive table of ALL places (live text search + borough/category filters + click-to-sort columns), injected into homepage via [[DATABASE_TABLE]]; homepage now leads with "🔎 Search all places"
+- 2026-07-03T01:30:00Z | UPDATE | index recomputed — 114 places, 35 neighborhoods; map rebuilt (113 pins)

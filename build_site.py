@@ -56,6 +56,19 @@ blockquote{margin:0;padding:0 1em;color:var(--muted);border-left:3px solid var(-
 .bcard .bcard-name{font-family:'Space Grotesk','Inter',system-ui,sans-serif;font-weight:600;font-size:18px;color:var(--ink);margin-top:10px;letter-spacing:-.01em;}
 .bcard .bcard-sub{font-size:12.5px;color:var(--muted);margin-top:4px;line-height:1.45;}
 .map-embed{width:100%;height:420px;border:1px solid var(--line);border-radius:14px;margin:12px 0;background:#fafafa;}
+.db-controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0;}
+.db-controls input,.db-controls select{font:inherit;font-size:14px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);}
+.db-controls input{flex:1;min-width:220px;}
+.db-controls .count{color:var(--muted);font-size:13px;margin-left:auto;font-variant-numeric:tabular-nums;}
+.db-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;}
+table.db{width:100%;border-collapse:collapse;font-size:14px;}
+table.db th,table.db td{text-align:left;padding:9px 13px;border-bottom:1px solid var(--line-soft);white-space:nowrap;}
+table.db td.name{white-space:normal;font-weight:600;min-width:190px;}
+table.db thead th{background:#fafafa;cursor:pointer;user-select:none;font-family:'Space Grotesk','Inter',sans-serif;font-size:11.5px;letter-spacing:.03em;text-transform:uppercase;color:var(--muted);}
+table.db thead th:hover{color:var(--accent);}
+table.db thead th .ar{opacity:.35;font-size:9px;margin-left:3px;}
+table.db tbody tr:hover td{background:#f7f7fb;}
+.db-empty{padding:20px;color:var(--muted);text-align:center;}
 """
 
 EMOJI = {"playground":"🛝","museum":"🎨","restaurant":"🍴","library":"📚","class":"🎵",
@@ -107,6 +120,61 @@ def render(rel, prefix):
             f'<title>{html.escape(str(title))} · Toddler Guide NYC</title><style>{CSS}</style></head><body>'
             f'{nav}<div class="wrap"><div class="card">{head}{render_meta(fm)}{body_html}</div></div></body></html>')
 
+COST_RANK = {"free":"0","$":"1","$$":"2","$$$":"3","reservation":"2.5"}
+
+def build_db_table():
+    """A searchable, sortable, filterable table of every place — the database view."""
+    rows, boroughs, cats = [], set(), set()
+    for p in sorted((ROOT/"places").glob("*.md")):
+        if p.name == "_template.md": continue
+        fm, _ = split_fm(p.read_text())
+        if fm.get("type") not in ("place", "event"): continue
+        name = fm.get("name") or p.stem
+        cat = fm.get("category") or "other"
+        nb = fm.get("neighborhood") or ""
+        boro = fm.get("borough") or ""
+        cost = str(fm.get("cost") or "")
+        ind = {"true":"indoor","false":"outdoor","both":"both"}.get(str(fm.get("indoor")).lower(), "")
+        ages = fm.get("age_range") or ""
+        tags = fm.get("tags") or []
+        walk = "🏠" if "walkable" in tags else ""
+        emoji = EMOJI.get(cat, "📍")
+        href = "places/" + p.stem + ".html"
+        search = " ".join([str(name), str(nb), str(boro), str(cat)] + [str(t) for t in tags]).lower()
+        boroughs.add(boro); cats.add(cat)
+        rows.append(
+          f'<tr data-search="{html.escape(search)}" data-borough="{html.escape(boro)}" data-category="{html.escape(cat)}">'
+          f'<td class="name"><a href="{href}">{emoji} {html.escape(str(name))}</a></td>'
+          f'<td>{html.escape(cat)}</td><td>{html.escape(str(nb))}</td><td>{html.escape(str(boro))}</td>'
+          f'<td data-sort="{COST_RANK.get(cost,"9")}">{html.escape(cost)}</td>'
+          f'<td>{ind}</td><td>{html.escape(str(ages))}</td><td>{walk}</td></tr>')
+    boro_opts = "".join(f'<option value="{html.escape(b)}">{html.escape(b)}</option>' for b in sorted(boroughs) if b)
+    cat_opts = "".join(f'<option value="{html.escape(c)}">{html.escape(c)}</option>' for c in sorted(cats) if c)
+    heads = ["Place","Category","Neighborhood","Borough","Cost","Indoor","Ages","🏠"]
+    thead = "".join(f'<th>{h}<span class="ar">▲▼</span></th>' for h in heads)
+    controls = (f'<div class="db-controls">'
+      f'<input id="dbq" type="search" placeholder="Search {len(rows)} places — name, neighborhood, tag…" aria-label="Search places">'
+      f'<select id="dbb" aria-label="Borough"><option value="">All boroughs</option>{boro_opts}</select>'
+      f'<select id="dbc" aria-label="Category"><option value="">All categories</option>{cat_opts}</select>'
+      f'<span class="count" id="dbcount">{len(rows)} places</span></div>')
+    table = (f'<div class="db-wrap"><table class="db" id="dbtable"><thead><tr>{thead}</tr></thead>'
+      f'<tbody>{"".join(rows)}</tbody></table><div class="db-empty" id="dbempty" style="display:none">No matches — try clearing a filter.</div></div>')
+    script = ("<script>(function(){var q=document.getElementById('dbq'),bb=document.getElementById('dbb'),"
+      "cc=document.getElementById('dbc'),tbl=document.getElementById('dbtable'),"
+      "rows=[].slice.call(tbl.tBodies[0].rows),cnt=document.getElementById('dbcount');"
+      "function apply(){var s=(q.value||'').toLowerCase().trim(),b=bb.value,c=cc.value,n=0;"
+      "rows.forEach(function(r){var ok=(!s||r.dataset.search.indexOf(s)>=0)&&(!b||r.dataset.borough===b)&&(!c||r.dataset.category===c);"
+      "r.style.display=ok?'':'none';if(ok)n++;});cnt.textContent=n+' place'+(n===1?'':'s');"
+      "document.getElementById('dbempty').style.display=n?'none':'';}"
+      "[q,bb,cc].forEach(function(e){e.addEventListener('input',apply);e.addEventListener('change',apply);});"
+      "var dir={};[].slice.call(tbl.tHead.rows[0].cells).forEach(function(th,i){th.addEventListener('click',function(){"
+      "dir[i]=!dir[i];var d=dir[i]?1:-1,tb=tbl.tBodies[0];"
+      "rows.slice().sort(function(a,b){var x=a.cells[i].dataset.sort||a.cells[i].textContent.trim().toLowerCase(),"
+      "y=b.cells[i].dataset.sort||b.cells[i].textContent.trim().toLowerCase(),nx=parseFloat(x),ny=parseFloat(y);"
+      "if(!isNaN(nx)&&!isNaN(ny))return (nx-ny)*d;return x<y?-d:x>y?d:0;})"
+      ".forEach(function(r){tb.appendChild(r);});});});})();</script>")
+    return controls + table + script
+
 def main():
     if SITE.exists(): shutil.rmtree(SITE)
     SITE.mkdir()
@@ -118,7 +186,10 @@ def main():
         prefix = "../" * depth
         out = SITE / rel.replace(".md", ".html")
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(render(rel, prefix))
+        html_str = render(rel, prefix)
+        if rel == "index.md":
+            html_str = html_str.replace("<p>[[DATABASE_TABLE]]</p>", build_db_table())
+        out.write_text(html_str)
     # Copy vendored assets (fonts) and the map (with popups pointed at .html).
     shutil.copytree(ROOT/"assets", SITE/"assets")
     shutil.copytree(ROOT/"map", SITE/"map")

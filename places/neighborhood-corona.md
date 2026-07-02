@@ -11,6 +11,7 @@ Queens neighborhood anchored by Flushing Meadows–Corona Park and its museums.
 
 ### 🎨 Museums
 - [New York Hall of Science (NYSCI)](museum-nysci.md) — hands-on science, `$$`, seasonal outdoor playground
+- [Queens Museum](museum-queens-museum.md) — Panorama + hands-on art lab · $$
 
 ### 🛝 Playgrounds & Parks
 - [Flushing Meadows–Corona Park](attraction-flushing-meadows.md) — huge park, playgrounds, fountain · free
