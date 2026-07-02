@@ -18,6 +18,7 @@ animals, and huge parks.
 
 ### 🛝 Playgrounds & Parks
 - [Gantry Plaza State Park](playground-gantry-plaza-lic.md) — free · waterfront · skyline views
+- [Hunter's Point South Park](playground-hunters-point-south-lic.md) — free · waterfront · skyline · lawn
 
 ### 🎠 Attractions & Animals
 - [Socrates Sculpture Park](attraction-socrates-sculpture-park.md) — free · outdoor art · family workshops
@@ -26,10 +27,15 @@ animals, and huge parks.
 - [Kanga's Indoor Playcenter & Cafe](indoor-play-kangas-lic.md) — `$$` · playcenter + cafe · drop-in
 - [Peekaboo Playground](indoor-play-peekaboo-lic.md) — `$$` · castle theme · ages ≤7
 
+### 🎨 Museums
+- [MoMA PS1](museum-moma-ps1-lic.md) — free · free · art · courtyard
+- [The Noguchi Museum](museum-noguchi-lic.md) — `$$` · sculpture · garden · family programs
+
 ## [Corona](neighborhood-corona.md)
 
 ### 🎨 Museums
 - [New York Hall of Science (NYSCI)](museum-nysci.md) — `$$` · science · seasonal playground
+- [Queens Museum](museum-queens-museum.md) — `$$` · Panorama · art lab · free Fri (NY res)
 
 ### 🛝 Playgrounds & Parks
 - [Flushing Meadows–Corona Park](attraction-flushing-meadows.md) — free · huge park · 🚗
@@ -44,6 +50,14 @@ animals, and huge parks.
 
 ### 🏠 Indoor Play Spaces
 - [Bounce 'N Play](indoor-play-bounce-n-play-astoria.md) — `$$` · bounce + climb · 6-and-under sessions
+
+### 🎨 Museums
+- [Museum of the Moving Image](museum-moving-image-astoria.md) — `$$` · interactive · Muppets · free Thu
+
+## [Flushing](neighborhood-flushing.md)
+
+### 🎠 Attractions & Animals
+- [Queens Botanical Garden](garden-queens-botanical.md) — `$` · friendly garden · lawns + family programs
 
 ## [Glen Oaks](neighborhood-glen-oaks.md) 🚗
 
