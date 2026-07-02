@@ -13,7 +13,7 @@ stroller_friendly: true
 nap_compatible: false
 restroom: true
 changing_table: true
-tags: [museum, queens, indoor]
+tags: [museum, queens, indoor, rainy-day]
 visited: false
 rating: null
 updated: 2026-07-02

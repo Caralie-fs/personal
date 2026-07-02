@@ -70,6 +70,10 @@ table.db thead th .ar{opacity:.35;font-size:9px;margin-left:3px;}
 table.db tbody tr:hover td{background:#f7f7fb;}
 table.db td.desc{white-space:normal;color:var(--muted);font-size:13px;min-width:200px;max-width:360px;}
 .db-empty{padding:20px;color:var(--muted);text-align:center;}
+h3.nbhd{text-transform:none;letter-spacing:0;font-size:17px;color:var(--ink);margin:26px 0 8px;font-weight:600;}
+h3.nbhd a{color:var(--ink);} h3.nbhd a:hover{color:var(--accent);}
+h3.nbhd .nbhd-n{font-size:12px;color:var(--faint);font-weight:500;}
+.db-wrap + h3.nbhd{margin-top:30px;}
 .homelink{display:inline-block;margin:6px 0 2px;font-weight:600;}
 /* 🌈🦄 colorful background (cards stay opaque so text is readable) */
 body{background:linear-gradient(135deg,#ffc2d1,#ffe0b0,#fff6b0,#c2f0cb,#b3e0ff,#dcc6ff);background-attachment:fixed;}
@@ -133,20 +137,20 @@ COST_RANK = {"free":"0","$":"1","$$":"2","$$$":"3","reservation":"2.5"}
 
 IND_LABEL = {"true":"indoor","false":"outdoor","both":"both"}
 
-DB_SCRIPT = ("<script>(function(){var q=document.getElementById('dbq'),bb=document.getElementById('dbb'),"
-  "cc=document.getElementById('dbc'),tbl=document.getElementById('dbtable');if(!tbl)return;"
-  "var rows=[].slice.call(tbl.tBodies[0].rows),cnt=document.getElementById('dbcount');"
-  "function apply(){var s=(q.value||'').toLowerCase().trim(),b=bb?bb.value:'',c=cc?cc.value:'',n=0;"
-  "rows.forEach(function(r){var ok=(!s||r.dataset.search.indexOf(s)>=0)&&(!b||r.dataset.borough===b)&&(!c||r.dataset.category===c);"
-  "r.style.display=ok?'':'none';if(ok)n++;});cnt.textContent=n+' place'+(n===1?'':'s');"
-  "document.getElementById('dbempty').style.display=n?'none':'';}"
-  "[q,bb,cc].forEach(function(e){if(e){e.addEventListener('input',apply);e.addEventListener('change',apply);}});"
-  "var dir={};[].slice.call(tbl.tHead.rows[0].cells).forEach(function(th,i){th.addEventListener('click',function(){"
-  "dir[i]=!dir[i];var d=dir[i]?1:-1,tb=tbl.tBodies[0];"
-  "rows.slice().sort(function(a,b){var x=a.cells[i].dataset.sort||a.cells[i].textContent.trim().toLowerCase(),"
-  "y=b.cells[i].dataset.sort||b.cells[i].textContent.trim().toLowerCase(),nx=parseFloat(x),ny=parseFloat(y);"
-  "if(!isNaN(nx)&&!isNaN(ny))return (nx-ny)*d;return x<y?-d:x>y?d:0;})"
-  ".forEach(function(r){tb.appendChild(r);});});});})();</script>")
+def db_script(u):
+    return ("<script>(function(){var q=document.getElementById('dbq%s'),bb=document.getElementById('dbb%s'),"
+     "cc=document.getElementById('dbc%s'),tbl=document.getElementById('db%s');if(!tbl)return;"
+     "var rows=[].slice.call(tbl.tBodies[0].rows),cnt=document.getElementById('dbcount%s'),emp=document.getElementById('dbempty%s');"
+     "function apply(){var s=(q?q.value:'').toLowerCase().trim(),b=bb?bb.value:'',c=cc?cc.value:'',n=0;"
+     "rows.forEach(function(r){var ok=(!s||r.dataset.search.indexOf(s)>=0)&&(!b||r.dataset.borough===b)&&(!c||r.dataset.category===c);"
+     "r.style.display=ok?'':'none';if(ok)n++;});if(cnt)cnt.textContent=n+' place'+(n===1?'':'s');if(emp)emp.style.display=n?'none':'';}"
+     "[q,bb,cc].forEach(function(e){if(e){e.addEventListener('input',apply);e.addEventListener('change',apply);}});"
+     "var dir={};[].slice.call(tbl.tHead.rows[0].cells).forEach(function(th,i){th.addEventListener('click',function(){"
+     "dir[i]=!dir[i];var d=dir[i]?1:-1,tb=tbl.tBodies[0];"
+     "rows.slice().sort(function(a,b){var x=a.cells[i].dataset.sort||a.cells[i].textContent.trim().toLowerCase(),"
+     "y=b.cells[i].dataset.sort||b.cells[i].textContent.trim().toLowerCase(),nx=parseFloat(x),ny=parseFloat(y);"
+     "if(!isNaN(nx)&&!isNaN(ny))return (nx-ny)*d;return x<y?-d:x>y?d:0;})"
+     ".forEach(function(r){tb.appendChild(r);});});});})();</script>") % (u,u,u,u,u,u)
 
 def _load_places():
     out = []
@@ -170,6 +174,7 @@ def _load_places():
             "indoor": IND_LABEL.get(str(fm.get("indoor")).lower(), ""),
             "ages": str(fm.get("age_range") or ""),
             "walk": "🏠" if "walkable" in tags else "", "summary": summ,
+            "tags": [str(t) for t in tags],
             "search": " ".join([str(fm.get(k) or "") for k in ("name","neighborhood","borough","category")]
                                + [str(t) for t in tags]).lower(),
         })
@@ -187,43 +192,88 @@ COLS = {
  "desc": ("Notes", lambda p, pre: f'<td class="desc">{html.escape(p["summary"])}</td>'),
 }
 
-def build_table(rows, place_prefix, columns, filters, all_places):
+def build_table(rows, place_prefix, columns, filters, all_places, uid=""):
     heads = "".join(f'<th>{COLS[c][0]}<span class="ar">▲▼</span></th>' for c in columns)
     trs = "".join(
         f'<tr data-search="{html.escape(p["search"])}" data-borough="{html.escape(p["borough"])}" '
         f'data-category="{html.escape(p["category"])}">'
         + "".join(COLS[c][1](p, place_prefix) for c in columns) + "</tr>" for p in rows)
-    ctl = ['<div class="db-controls">',
-           f'<input id="dbq" type="search" placeholder="Search {len(rows)} places…" aria-label="Search">']
-    if "borough" in filters:
-        o = "".join(f'<option value="{html.escape(b)}">{html.escape(b)}</option>'
-                    for b in sorted({x["borough"] for x in all_places if x["borough"]}))
-        ctl.append(f'<select id="dbb" aria-label="Borough"><option value="">All boroughs</option>{o}</select>')
-    if "category" in filters:
-        o = "".join(f'<option value="{html.escape(c)}">{html.escape(c)}</option>'
-                    for c in sorted({x["category"] for x in rows if x["category"]}))
-        ctl.append(f'<select id="dbc" aria-label="Category"><option value="">All categories</option>{o}</select>')
-    ctl.append(f'<span class="count" id="dbcount">{len(rows)} places</span></div>')
-    table = (f'<div class="db-wrap"><table class="db" id="dbtable"><thead><tr>{heads}</tr></thead>'
+    ctl = ""
+    if filters:
+        parts = ['<div class="db-controls">',
+                 f'<input id="dbq{uid}" type="search" placeholder="Search {len(rows)} places…" aria-label="Search">']
+        if "borough" in filters:
+            o = "".join(f'<option value="{html.escape(b)}">{html.escape(b)}</option>'
+                        for b in sorted({x["borough"] for x in all_places if x["borough"]}))
+            parts.append(f'<select id="dbb{uid}" aria-label="Borough"><option value="">All boroughs</option>{o}</select>')
+        if "category" in filters:
+            o = "".join(f'<option value="{html.escape(c)}">{html.escape(c)}</option>'
+                        for c in sorted({x["category"] for x in rows if x["category"]}))
+            parts.append(f'<select id="dbc{uid}" aria-label="Category"><option value="">All categories</option>{o}</select>')
+        parts.append(f'<span class="count" id="dbcount{uid}">{len(rows)} places</span></div>')
+        ctl = "".join(parts)
+    table = (f'<div class="db-wrap"><table class="db" id="db{uid}"><thead><tr>{heads}</tr></thead>'
              f'<tbody>{trs}</tbody></table>'
-             f'<div class="db-empty" id="dbempty" style="display:none">No matches — try clearing a filter.</div></div>')
-    return "".join(ctl) + table + DB_SCRIPT
+             f'<div class="db-empty" id="dbempty{uid}" style="display:none">No matches — try clearing a filter.</div></div>')
+    return ctl + table + db_script(uid)
+
+def _load_neighborhoods():
+    out = []
+    for p in sorted((ROOT/"places").glob("neighborhood-*.md")):
+        fm, _ = split_fm(p.read_text())
+        out.append({"name": str(fm.get("name") or p.stem), "slug": p.stem,
+                    "borough": str(fm.get("borough") or ""), "aliases": fm.get("aliases") or [],
+                    "home": "home" in (fm.get("tags") or [])})
+    return out
 
 def build_full_db(place_prefix):
     ps = _load_places()
     return build_table(ps, place_prefix, ["name","category","neighborhood","borough","cost","indoor","ages","walk"],
                        {"search","borough","category"}, ps)
 
-def build_borough_table(boro, place_prefix=""):
-    ps = _load_places(); rows = [p for p in ps if p["borough"] == boro]
-    return build_table(rows, place_prefix, ["name","category","neighborhood","cost","indoor","ages","walk","desc"],
-                       {"search","category"}, ps)
+def build_borough_grouped(boro, place_prefix=""):
+    """One table per neighborhood within the borough (home base first, then A–Z)."""
+    ps = _load_places()
+    nbhds = sorted((n for n in _load_neighborhoods() if n["borough"] == boro),
+                   key=lambda n: (not n["home"], n["name"]))
+    used, parts = set(), []
+    for i, n in enumerate(nbhds):
+        names = {n["name"]} | set(n["aliases"])
+        rows = [p for p in ps if p["neighborhood"] in names]
+        if not rows: continue
+        for p in rows: used.add(p["slug"])
+        home = " 🏠" if n["home"] else ""
+        parts.append(f'<h3 class="nbhd"><a href="{place_prefix}{n["slug"]}.html">{html.escape(n["name"])}{home}</a> '
+                     f'<span class="nbhd-n">{len(rows)}</span></h3>')
+        parts.append(build_table(rows, place_prefix, ["name","category","cost","indoor","ages","walk","desc"],
+                                 set(), ps, uid=f"_{boro[:2].lower()}{i}"))
+    leftover = [p for p in ps if p["borough"] == boro and p["slug"] not in used]
+    if leftover:
+        parts.append('<h3 class="nbhd">Other / citywide</h3>')
+        parts.append(build_table(leftover, place_prefix, ["name","category","neighborhood","cost","indoor","ages","walk","desc"],
+                                 set(), ps, uid=f"_{boro[:2].lower()}x"))
+    return "".join(parts)
 
 def build_nbhd_table(name, aliases, place_prefix=""):
     ps = _load_places(); names = {name} | set(aliases or [])
     rows = [p for p in ps if p["neighborhood"] in names]
     return build_table(rows, place_prefix, ["name","category","cost","indoor","ages","walk","desc"],
                        {"search"}, ps)
+
+def build_filter_table(field, val, place_prefix):
+    """Guide tables: filter places by a tag or by cost=free."""
+    ps = _load_places()
+    if field == "tag":
+        rows = [p for p in ps if val in _tags_of(p)]
+    elif field == "cost":
+        rows = [p for p in ps if p["cost"] == val]
+    else:
+        rows = ps
+    return build_table(rows, place_prefix, ["name","category","neighborhood","borough","cost","indoor","ages","walk","desc"],
+                       {"search","borough","category"}, ps)
+
+def _tags_of(p):
+    return set(p.get("tags") or [])
 
 def main():
     if SITE.exists(): shutil.rmtree(SITE)
@@ -238,14 +288,18 @@ def main():
         out.parent.mkdir(parents=True, exist_ok=True)
         html_str = render(rel, prefix)
         raw = (ROOT / rel).read_text()
-        place_prefix = "" if rel.startswith("places/") else "places/"
+        place_prefix = "" if rel.startswith("places/") else prefix + "places/"
         if "[[DATABASE_TABLE]]" in raw:
             html_str = html_str.replace("<p>[[DATABASE_TABLE]]</p>", build_full_db(place_prefix))
         if "[[PLACES_TABLE]]" in raw:
             fm, _ = split_fm(raw)
-            tbl = (build_borough_table(fm.get("borough"), place_prefix) if fm.get("type") == "borough"
+            tbl = (build_borough_grouped(fm.get("borough"), place_prefix) if fm.get("type") == "borough"
                    else build_nbhd_table(fm.get("name"), fm.get("aliases"), place_prefix))
             html_str = html_str.replace("<p>[[PLACES_TABLE]]</p>", tbl)
+        for m in re.findall(r"\[\[TABLE ([a-z]+)=([^\]]+)\]\]", raw):
+            field, val = m
+            tok = f"<p>[[TABLE {field}={val}]]</p>"
+            html_str = html_str.replace(tok, build_filter_table(field, val, place_prefix))
         out.write_text(html_str)
     # Copy vendored assets (fonts) and the map (with popups pointed at .html).
     shutil.copytree(ROOT/"assets", SITE/"assets")
