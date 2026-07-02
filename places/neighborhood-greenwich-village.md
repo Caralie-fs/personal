@@ -2,12 +2,14 @@
 name: Greenwich Village
 type: neighborhood
 borough: Manhattan
-updated: 2026-06-27
+updated: 2026-07-02
 tags: [neighborhood, manhattan]
 ---
 Lively downtown neighborhood around Washington Square Park.
 
 ## Places here
+
+### 🛝 Playgrounds & Parks
 - [Washington Square Park](playground-washington-square.md) — fountain + playgrounds + performers · free
 
 ## Notes

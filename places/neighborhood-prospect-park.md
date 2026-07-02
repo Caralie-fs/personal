@@ -2,12 +2,14 @@
 name: Prospect Park
 type: neighborhood
 borough: Brooklyn
-updated: 2026-06-27
+updated: 2026-07-02
 tags: [neighborhood, brooklyn]
 ---
 Brooklyn's great park and its neighbor the Botanic Garden — an easy combo day.
 
 ## Places here
+
+### 🎠 Attractions & Animals
 - [Prospect Park (Children's Corner)](attraction-prospect-park.md) — carousel, zoo, Lefferts, playgrounds
 - [Brooklyn Botanic Garden](garden-brooklyn-botanic.md) — Discovery Garden + grounds · `$$`
 

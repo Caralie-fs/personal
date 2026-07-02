@@ -60,3 +60,6 @@ Types: ADD, UPDATE, GUIDE, NEIGHBORHOOD, REMOVE.
 - 2026-06-27T11:00:00Z | ADD | Manhattan: high-line, little-island, teardrop-park, the-battery-seaglass, intrepid, central-park-carousel, heckscher, washington-square, serendipity-3
 - 2026-06-27T11:00:00Z | NEIGHBORHOOD | created chelsea, battery-park-city, financial-district, hells-kitchen, greenwich-village; updated central-park + UES hubs
 - 2026-06-27T11:00:00Z | UPDATE | index (41 places, 20 nbhds); free-activities guide += Manhattan parks
+- 2026-07-02T00:00:00Z | UPDATE | index.md — reorganized neighborhood-first: borough → neighborhood → category sections (museums, playgrounds & parks, attractions & animals, indoor play, story times, classes, food)
+- 2026-07-02T00:00:00Z | UPDATE | all 20 neighborhood pages — "Places here" regrouped into the same category sections; cross-link fixes (Williamsburg += Bushwick Inlet, Afuri; UWS += AMNH, Alice's Tea Cup)
+- 2026-07-02T00:00:00Z | FIX | replaced stock jekyll-gh-pages.yml with pages.yml (custom build_map.py + build_site.py deploy) — removes the "personal" repo-name header Jekyll put on every page

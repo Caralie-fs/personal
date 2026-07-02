@@ -2,13 +2,17 @@
 name: Long Island City
 type: neighborhood
 borough: Queens
-updated: 2026-06-27
+updated: 2026-07-02
 tags: [neighborhood, queens, waterfront]
 ---
 Queens waterfront across from Midtown — one ferry stop from North Williamsburg.
 
 ## Places here
+
+### 🛝 Playgrounds & Parks
 - [Gantry Plaza State Park](playground-gantry-plaza-lic.md) — waterfront playgrounds + skyline views · free
+
+### 🎠 Attractions & Animals
 - [Socrates Sculpture Park](attraction-socrates-sculpture-park.md) — outdoor art + free family workshops · free
 
 ## Notes

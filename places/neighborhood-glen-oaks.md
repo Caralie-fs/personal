@@ -2,12 +2,14 @@
 name: Glen Oaks
 type: neighborhood
 borough: Queens
-updated: 2026-06-27
+updated: 2026-07-02
 tags: [neighborhood, queens, car-trip]
 ---
 Eastern Queens — home to the Queens County Farm Museum. A car destination.
 
 ## Places here
+
+### 🎠 Attractions & Animals
 - [Queens County Farm Museum](attraction-queens-county-farm.md) — working farm, free, free parking
 
 ## Notes

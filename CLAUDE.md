@@ -9,7 +9,7 @@ ideas into structured, cross-linked markdown pages.
 ```
 toddler-nyc/
   CLAUDE.md      # this file — schema and rules
-  index.md       # master navigation, grouped by category + neighborhood
+  index.md       # master navigation, grouped by neighborhood, then category
   log.md         # append-only change log
   places/        # one markdown file per place or recurring activity
   guides/        # themed roundups (rainy-day, free, by-neighborhood, etc.)

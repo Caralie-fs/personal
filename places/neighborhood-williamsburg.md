@@ -2,19 +2,31 @@
 name: Williamsburg
 type: neighborhood
 borough: Brooklyn
-updated: 2026-06-27
+updated: 2026-07-02
 tags: [neighborhood, brooklyn, home]
 ---
 🏠 **Home base.** North Brooklyn neighborhood on the waterfront — well stocked
 with toddler options, most of them walkable or a short stroller push.
 
-## Places here (close to home)
+## Places here
+
+### 🛝 Playgrounds & Parks
 - [Domino Park Playground](playground-domino-park.md) — waterfront playground + summer water play · free · outdoor
 - [McCarren Park Playground](playground-mccarren-park.md) — big park, fields, summer pool · free · outdoor
+- [Bushwick Inlet Park](playground-bushwick-inlet-park.md) — waterfront fields + playground · free · outdoor
+
+### 🏠 Indoor Play Spaces
 - [The Canopy NYC](indoor-play-canopy.md) — indoor baby/toddler playspace · `$$$` · rainy/winter go-to
+
+### 📚 Library Story Times
 - [BPL Williamsburg Story Time](event-storytime-bpl-williamsburg.md) — free indoor library story time · recurring
-- [Smorgasburg (Williamsburg)](event-smorgasburg.md) — weekend open-air food market · seasonal
+
+### 🎵 Classes
 - [Music Together (Williamsburg area)](class-music-together-williamsburg.md) — parent-and-toddler music class · indoor
+
+### 🍴 Kid-Friendly Food
+- [Afuri Ramen (Williamsburg)](restaurant-afuri-williamsburg.md) — ramen with a kids menu · `$$`
+- [Smorgasburg (Williamsburg)](event-smorgasburg.md) — weekend open-air food market · seasonal
 - [Café Mogador (Williamsburg)](restaurant-cafe-mogador.md) — kid-friendly Moroccan, high chairs · `$$`
 
 ## Upcoming events
