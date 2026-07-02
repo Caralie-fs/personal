@@ -44,6 +44,7 @@ room to roam; plan 2 hours indoors, more if the playground is open.
 - Destination outing, not nap-compatible.
 
 ## Relationships
+- Listed in [Free Activities Guide](../guides/free-activities.md) — free hours
 - In [Corona](neighborhood-corona.md)
 - Listed in [Rainy-Day Guide](../guides/rainy-day.md)
 

@@ -45,6 +45,7 @@ family day or a nap-in-the-stroller stroll.
 - Combine with [Prospect Park](attraction-prospect-park.md) next door.
 
 ## Relationships
+- Listed in [Free Activities Guide](../guides/free-activities.md) — free window
 - In [Prospect Park](neighborhood-prospect-park.md)
 - Near [Prospect Park (Children's Corner)](attraction-prospect-park.md)
 

@@ -43,6 +43,7 @@ everything, which is the whole point. Plan for 1.5–2 hours before meltdown.
 - Pair with Central Park playgrounds if the weather turns.
 
 ## Relationships
+- Listed in [Free Activities Guide](../guides/free-activities.md) — free / PWYW community hours
 - In [Upper West Side](neighborhood-uws.md)
 - Listed in [Rainy-Day Guide](../guides/rainy-day.md)
 

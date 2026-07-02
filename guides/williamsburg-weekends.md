@@ -1,12 +1,12 @@
 ---
 name: Williamsburg Weekends — Upcoming Events
 type: guide
-updated: 2026-06-27
+updated: 2026-07-02
 tags: [williamsburg, events, weekend, time-sensitive]
 ---
 Dated toddler-friendly events on the next few weekends near home. **Compiled
-2026-06-27 from web sources — events are the most perishable thing in this
-wiki.** Recurring anchors (markets, Play in the Square) are reliable; specific
+2026-06-27, past weekends pruned 2026-07-02 — events are the most perishable
+thing in this wiki.** Recurring anchors (markets, Play in the Square) are reliable; specific
 one-off dates are marked ⚠️ and should be confirmed on the official page before
 you plan around them. Some snippet dates looked like 2025 dates — double-check.
 
@@ -27,17 +27,13 @@ you plan around them. Some snippet dates looked like 2025 dates — double-check
 
 ---
 
-## This weekend — Sat Jun 27 & Sun Jun 28
-- **Sat:** Smorgasburg (11am–6pm) · McCarren Greenmarket (morning).
-- **Sun:** Domino Park Greenmarket · possibly Play in the Square ⚠️ (verify date).
-- Default fallback: [Domino Park Playground](../places/playground-domino-park.md)
-  water play if it's hot.
-
-## Jul 4 weekend — Sat Jul 4 & Sun Jul 5
+## This weekend — Sat Jul 4 & Sun Jul 5
 - **Sat Jul 4:** Smorgasburg likely open ⚠️ (confirm holiday hours) · July 4th
   is a big crowd/heat day — morning waterfront is best with a toddler.
 - **Sun Jul 5:** Greenmarket · Play in the Square ⚠️ (verify).
 - Note: city-wide July 4th fireworks affect transit/crowds in the evening.
+- Default fallback: [Domino Park Playground](../places/playground-domino-park.md)
+  water play if it's hot.
 
 ## Jul 11–12
 - **Sat:** Smorgasburg · McCarren Greenmarket.

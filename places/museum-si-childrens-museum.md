@@ -38,6 +38,7 @@ Hands-on museum in the Snug Harbor gardens — the anchor of a Staten Island fer
 - The ferry ride (boats! Statue of Liberty!) is half the outing for the kids.
 
 ## Relationships
+- Listed in [Free Activities Guide](../guides/free-activities.md) — free / discount community days
 - In [Snug Harbor](neighborhood-snug-harbor.md)
 - Listed in [Rainy-Day Guide](../guides/rainy-day.md)
 - Listed in [Car Day-Trips](../guides/car-day-trips.md)
