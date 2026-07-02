@@ -52,6 +52,13 @@ times, sprinklers, and free museum hours.
   [Little Island](../places/attraction-little-island.md) — Chelsea waterfront
   parks (Little Island may need a free timed ticket in peak season).
 
+## Free ferry rides & islands
+- [Staten Island Ferry](../places/attraction-staten-island-ferry.md) — **free**
+  25-min boat ride, Statue of Liberty + harbor views. All-weather, nap-friendly.
+- [Governors Island](../places/attraction-governors-island.md) — free island
+  entry (cheap ferry; free Sat/Sun AM from Manhattan): slides, hammocks,
+  adventure playgrounds. **Seasonal.**
+
 ## Animals & Farms (free)
 - [Queens County Farm Museum](../places/attraction-queens-county-farm.md) —
   working farm, free admission **+ free parking**. **(car day-trip)**

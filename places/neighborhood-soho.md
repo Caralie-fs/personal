@@ -13,6 +13,9 @@ Cast-iron shopping blocks hiding two ticketed kid-delight 'museums'.
 - [Museum of Ice Cream](museum-museum-of-ice-cream.md) — sprinkle pool + slide + samples · `$$$`
 - [Color Factory](museum-color-factory.md) — color installations + giant ball pit · `$$$` · better at 5
 
+### 🍴 Kid-Friendly Food
+- [Black Tap Craft Burgers](restaurant-black-tap-soho.md) — burgers + CrazyShakes · `$$`
+
 ## Notes
 - Both are timed-ticket and pricey — one per special occasion.
 - Transit only (N/R Prince, C/E Spring).

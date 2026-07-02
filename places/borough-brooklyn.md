@@ -63,6 +63,8 @@ the Brooklyn Bridge Park waterfront, a children's museum, and Prospect Park.
 - [Westville DUMBO](restaurant-westville-dumbo.md) — `$$` · kid menu · high chairs
 - [Ziggy's Roman Café](restaurant-ziggys-dumbo.md) — `$$` · pizza + play area
 - [Clark's](restaurant-clarks-brooklyn-heights.md) — `$$` · diner · high chairs
+- [Juliana's Pizza](restaurant-julianas-dumbo.md) — `$$` · coal-oven pizza · waterfront
+- [Vineapple Cafe](restaurant-vineapple-brooklyn-heights.md) — `$$` · all-day cafe · high chairs
 
 ## [Downtown Brooklyn](neighborhood-downtown-brooklyn.md)
 
@@ -120,6 +122,9 @@ the Brooklyn Bridge Park waterfront, a children's museum, and Prospect Park.
 ### 🏠 Indoor Play Spaces
 - [Fairytale Island](indoor-play-fairytale-island-bay-ridge.md) — `$$` · playground + cafe
 
+### 🍴 Kid-Friendly Food
+- [Il Colosseo](restaurant-il-colosseo-bay-ridge.md) — `$$` · Italian · brick oven
+
 ## [Gravesend](neighborhood-gravesend.md)
 
 ### 🏠 Indoor Play Spaces
@@ -135,6 +140,17 @@ the Brooklyn Bridge Park waterfront, a children's museum, and Prospect Park.
 
 ### 🍴 Kid-Friendly Food
 - [Nathan's Famous](restaurant-nathans-coney-island.md) — `$$` · hot dogs · boardwalk · casual
+
+## [Carroll Gardens](neighborhood-carroll-gardens.md)
+
+### 🛝 Playgrounds & Parks
+- [Carroll Park](playground-carroll-park.md) — free · tot + big-kid zones · year-round bathrooms
+
+### 🍴 Kid-Friendly Food
+- [Brooklyn Farmacy & Soda Fountain](restaurant-brooklyn-farmacy-carroll-gardens.md) — `$$` · 1920s soda fountain · sundaes
+
+### 🛍️ Books & Stores
+- [Books Are Magic](store-books-are-magic.md) — free · indie bookstore + story-time nook
 
 ## Relationships
 - Back to the [homepage](../index.md) · other boroughs: [Manhattan](borough-manhattan.md) · [Queens](borough-queens.md) · [The Bronx](borough-bronx.md) · [Staten Island](borough-staten-island.md)

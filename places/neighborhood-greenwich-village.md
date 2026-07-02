@@ -13,6 +13,9 @@ Lively downtown neighborhood around Washington Square Park.
 - [Washington Square Park](playground-washington-square.md) — fountain + playgrounds + performers · free
 - [Pier 51 Playground](playground-pier-51.md) — nautical water + sand play · free · outdoor
 
+### 🍴 Kid-Friendly Food
+- [Cowgirl](restaurant-cowgirl-west-village.md) — relaxed Tex-Mex, kid-loving · `$$`
+
 ## Notes
 - Endless casual food nearby (pizza, ice cream) for a post-park treat.
 - Transit only — no good parking.

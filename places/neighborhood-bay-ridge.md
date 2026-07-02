@@ -12,6 +12,9 @@ South Brooklyn under the Verrazzano — play cafe + waterfront parks, first stop
 ### 🏠 Indoor Play Spaces
 - [Fairytale Island](indoor-play-fairytale-island-bay-ridge.md) — playground + cafe on Third Ave · `$$`
 
+### 🍴 Kid-Friendly Food
+- [Il Colosseo](restaurant-il-colosseo-bay-ridge.md) — Italian, brick oven + open kitchen · `$$`
+
 ## Notes
 - Owl's Head Park (playground, harbor views) and the Shore Road path are unpaged quick stops.
 - First Brooklyn exit coming over the Verrazzano — commute-friendly.

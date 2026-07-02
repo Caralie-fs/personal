@@ -11,6 +11,7 @@ Manhattan's tip — harbor views, The Battery, and the free Staten Island Ferry.
 
 ### 🎠 Attractions & Animals
 - [The Battery & SeaGlass Carousel](attraction-the-battery-seaglass.md) — waterfront park + glowing-fish carousel · `$`
+- [Staten Island Ferry](attraction-staten-island-ferry.md) — free 25-min boat ride, Statue views · free
 
 ### 🏠 Indoor Play Spaces
 - [Complete Playground](indoor-play-complete-playground-fidi.md) — 45,000 sq ft, inclusive + sensory room · `$$$`

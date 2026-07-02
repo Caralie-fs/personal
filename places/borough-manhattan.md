@@ -22,6 +22,7 @@ kid outings, an easy L-train or ferry ride from Williamsburg.
 
 ### 🍴 Kid-Friendly Food
 - [Alice's Tea Cup](restaurant-alices-tea-cup-uws.md) — `$$` · whimsical · brunch
+- [Jacob's Pickles](restaurant-jacobs-pickles-uws.md) — `$$` · Southern comfort · lively
 
 ### 🛝 Playgrounds & Parks
 - [Hippo Playground (Riverside Park)](playground-hippo-riverside.md) — free · hippos · water play · sandbox
@@ -51,6 +52,7 @@ kid outings, an easy L-train or ferry ride from Williamsburg.
 ### 🎠 Attractions & Animals
 - [The High Line](attraction-high-line.md) — free · elevated park walk
 - [Little Island](attraction-little-island.md) — free · floating Hudson park
+- [Pier 62 Carousel](attraction-pier-62-carousel.md) — `$` · hand-carved NY-animal carousel
 
 ### 🏠 Indoor Play Spaces
 - [Chelsea Piers Field House](indoor-play-chelsea-piers.md) — `$$$` · toddler gym sessions · scales with age
@@ -64,11 +66,17 @@ kid outings, an easy L-train or ferry ride from Williamsburg.
 - [Washington Square Park](playground-washington-square.md) — free · fountain + playgrounds
 - [Pier 51 Playground](playground-pier-51.md) — free · nautical · water + sand play
 
+### 🍴 Kid-Friendly Food
+- [Cowgirl](restaurant-cowgirl-west-village.md) — `$$` · Tex-Mex · kid-loving
+
 ## [SoHo](neighborhood-soho.md)
 
 ### 🎨 Museums
 - [Museum of Ice Cream](museum-museum-of-ice-cream.md) — `$$$` · sprinkle pool · treat outing
 - [Color Factory](museum-color-factory.md) — `$$$` · color rooms + ball pit · better at 5
+
+### 🍴 Kid-Friendly Food
+- [Black Tap Craft Burgers](restaurant-black-tap-soho.md) — `$$` · burgers · crazy milkshakes
 
 ## [Flatiron](neighborhood-flatiron.md)
 
@@ -90,6 +98,7 @@ kid outings, an easy L-train or ferry ride from Williamsburg.
 
 ### 🎠 Attractions & Animals
 - [The Battery & SeaGlass Carousel](attraction-the-battery-seaglass.md) — `$` · glowing-fish carousel
+- [Staten Island Ferry](attraction-staten-island-ferry.md) — free · 25-min boat ride · Statue views
 
 ### 🏠 Indoor Play Spaces
 - [Complete Playground](indoor-play-complete-playground-fidi.md) — `$$$` · 45,000 sq ft · inclusive + sensory room
@@ -98,6 +107,19 @@ kid outings, an easy L-train or ferry ride from Williamsburg.
 
 ### 🛝 Playgrounds & Parks
 - [Pier 25 Playground](playground-pier-25-tribeca.md) — free · rock wall · water play · carousel · mini-golf
+
+### 🍴 Kid-Friendly Food
+- [Bubby's (Tribeca)](restaurant-bubbys-tribeca.md) — `$$` · pancakes · pies
+
+## [Governors Island](neighborhood-governors-island.md)
+
+### 🎠 Attractions & Animals
+- [Governors Island](attraction-governors-island.md) — `$` · Slide Hill (57-ft slide) + adventure playgrounds · seasonal · car-free
+
+## [Chinatown](neighborhood-chinatown.md)
+
+### 🍴 Kid-Friendly Food
+- [Nom Wah Tea Parlor](restaurant-nom-wah-chinatown.md) — `$$` · dim sum · fast + shareable
 
 ## Citywide
 

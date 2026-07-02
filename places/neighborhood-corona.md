@@ -18,6 +18,9 @@ Queens neighborhood anchored by Flushing Meadows–Corona Park and its museums.
 ### 🎠 Attractions & Animals
 - [Queens Zoo](attraction-queens-zoo.md) — small walkable zoo + petting area · `$$`
 
+### 🍴 Kid-Friendly Food
+- [Leo's Latticini (Mama's of Corona)](restaurant-leos-latticini-corona.md) — legendary deli, picnic heroes · `$$`
+
 ## Notes
 - Stack NYSCI + Queens Zoo + a park playground for a full car day (park lots on-site).
 

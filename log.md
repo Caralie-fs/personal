@@ -95,3 +95,8 @@ Types: ADD, UPDATE, GUIDE, NEIGHBORHOOD, REMOVE.
 - 2026-07-02T23:59:00Z | NEIGHBORHOOD | created neighborhood-tribeca.md (Manhattan)
 - 2026-07-02T23:59:00Z | NOTE | SeaGlass Carousel already in KB (attraction-the-battery-seaglass.md, Financial District) — not duplicated
 - 2026-07-02T23:59:00Z | UPDATE | index recomputed from frontmatter — 93 places, 31 neighborhoods (Brooklyn 50, Manhattan 28); map rebuilt (92 pins)
+- 2026-07-03T00:30:00Z | ADD | classic-attraction gaps from reddit/blog lists: attraction-governors-island (+neighborhood-governors-island), attraction-staten-island-ferry (free), attraction-pier-62-carousel (Chelsea)
+- 2026-07-03T00:30:00Z | ADD | restaurant sweep from Eater/newyorkstreetfood/Resy/OpenTable lists (10): Nom Wah (Chinatown-new), Bubby's Tribeca, Jacob's Pickles (UWS), Cowgirl (W Village), Black Tap (SoHo), Juliana's + Vineapple (DUMBO/Bklyn Hts), Il Colosseo (Bay Ridge), Brooklyn Farmacy (Carroll Gardens-new), Leo's Latticini (Corona)
+- 2026-07-03T00:30:00Z | ADD | playground-carroll-park + store-books-are-magic (Prospect Places guide); build_site EMOJI += store
+- 2026-07-03T00:30:00Z | NEIGHBORHOOD | created governors-island, chinatown, carroll-gardens; free-activities += free ferry/island section + Manhattan playgrounds
+- 2026-07-03T00:30:00Z | UPDATE | index recomputed — 108 places, 34 neighborhoods; map rebuilt (107 pins). Source URLs blocked from direct fetch — compiled via web search + cross-check
