@@ -12,6 +12,9 @@ Transit hub bordering Brooklyn Heights — home to the Transit Museum.
 ### 🎨 Museums
 - [New York Transit Museum](museum-nyc-transit-museum.md) — vintage subway cars to board · `$$` · indoor
 
+### 🍴 Kid-Friendly Food
+- [DeKalb Market Hall](restaurant-dekalb-market-hall.md) — food hall, something for everyone · `$$`
+
 ## Notes
 - Easy to combine with a Brooklyn Heights waterfront / DUMBO walk.
 - By car: metered street + downtown garages.

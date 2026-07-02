@@ -90,3 +90,8 @@ Types: ADD, UPDATE, GUIDE, NEIGHBORHOOD, REMOVE.
 - 2026-07-02T23:00:00Z | GUIDE | williamsburg-weekends.md — pruned past weekend (Jun 27–28); Jul 4–5 is now "this weekend"; bumped updated date
 - 2026-07-02T23:00:00Z | UPDATE | index (70 places, Brooklyn card 35)
 - 2026-07-02T23:30:00Z | GUIDE | commute-aberdeen-nj.md — drastically condensed: one-line stops (dropped nested detail sub-bullets + per-leg intro paragraphs), trimmed intro description + cheatsheet; 102→51 lines
+- 2026-07-02T23:59:00Z | ADD | Brooklyn kid-menu restaurant sweep (15): Bareburger/Tom's/Amorina (Prospect Park area), 21 Greenpoint + Calexico (Greenpoint), Dino + Black Forest (Fort Greene), Westville + Ziggy's + Clark's (DUMBO/Bklyn Hts), DeKalb Market Hall (Downtown), Cent'anni + Bombay Masala (Crown Heights), L&B Spumoni Gardens (Gravesend), Nathan's (Coney Island) — wired into hoods + Brooklyn hub
+- 2026-07-02T23:59:00Z | ADD | Manhattan playground sweep (8): Billy Johnson + Diana Ross (Central Park), Hippo + Dinosaur (Riverside/UWS), Chelsea Waterside (Chelsea), Pier 51 (W Village), Rockefeller Park (BPC), Pier 25 (Tribeca — new neighborhood); free-activities += all 8
+- 2026-07-02T23:59:00Z | NEIGHBORHOOD | created neighborhood-tribeca.md (Manhattan)
+- 2026-07-02T23:59:00Z | NOTE | SeaGlass Carousel already in KB (attraction-the-battery-seaglass.md, Financial District) — not duplicated
+- 2026-07-02T23:59:00Z | UPDATE | index recomputed from frontmatter — 93 places, 31 neighborhoods (Brooklyn 50, Manhattan 28); map rebuilt (92 pins)

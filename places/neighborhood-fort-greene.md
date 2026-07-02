@@ -12,6 +12,10 @@ Brownstone Brooklyn around Fort Greene Park — home to the flagship Space Club.
 ### 🏠 Indoor Play Spaces
 - [Space Club](indoor-play-space-club-fort-greene.md) — 3 floors + rooftop atrium, cafe · `$$$` · drop-in
 
+### 🍴 Kid-Friendly Food
+- [Dino](restaurant-dino-fort-greene.md) — Northern Italian, high chairs + garden · `$$`
+- [Black Forest Brooklyn](restaurant-black-forest-fort-greene.md) — German beer garden, kids' games · `$$`
+
 ## Notes
 - Fort Greene Park playgrounds + Saturday greenmarket pair well with a Space Club morning.
 - G to Clinton–Washington; street parking workable.
