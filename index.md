@@ -1,9 +1,9 @@
-# Toddler NYC — Index
+# Toddler Guide NYC
 
-Master navigation for the knowledge base. Everything lives under its borough —
-pick a card. Each borough page has its own map and its neighborhoods broken out
-by category (museums, playgrounds & parks, attractions & animals, indoor play,
-story times, classes, kid-friendly food). See [CLAUDE.md](https://github.com/Caralie-fs/personal/blob/main/CLAUDE.md) for the schema.
+A knowledge base, organized by borough, of things to do with toddlers in New
+York City. Pick a card — each borough page has its own map and neighborhoods
+broken out by category (museums, playgrounds & parks, attractions & animals,
+indoor play, story times, classes, kid-friendly food). See [CLAUDE.md](https://github.com/Caralie-fs/personal/blob/main/CLAUDE.md) for the schema.
 
 🏠 **Home base: [Williamsburg](places/neighborhood-williamsburg.md)** · 👧🧒 **Kids: 3 & 5** · 🚗 **We have a car** (parking notes on each page)
 
