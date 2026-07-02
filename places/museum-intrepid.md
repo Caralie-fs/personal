@@ -13,7 +13,7 @@ stroller_friendly: true
 nap_compatible: false
 restroom: true
 changing_table: true
-tags: [planes, space-shuttle, aircraft-carrier, hands-on, big-day]
+tags: [planes, space-shuttle, aircraft-carrier, hands-on, big-day, rainy-day]
 parking: "pier parking lot nearby (paid)"
 visited: false
 rating: null
