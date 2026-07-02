@@ -29,7 +29,7 @@ toddler-nyc/
 
 Open [`map/map.html`](map/map.html) (all NYC) or the per-borough maps
 [`manhattan.html`](map/manhattan.html) / [`brooklyn.html`](map/brooklyn.html) /
-[`queens.html`](map/queens.html) / [`bronx.html`](map/bronx.html) — a borough switcher links between them. Every
+[`queens.html`](map/queens.html) / [`bronx.html`](map/bronx.html) / [`staten-island.html`](map/staten-island.html) — a borough switcher links between them. Every
 place is pinned and colored by category, with filters and links back to each
 page. After adding or moving a place, regenerate the data:
 
@@ -39,8 +39,8 @@ python3 build_map.py
 
 The basemap is a **vector borough outline** (`map/boroughs.js`) drawn by Leaflet
 itself — **no external map tiles**, so the map always shows an outline and works
-fully offline. Leaflet is vendored under `map/vendor/`. The fonts (**Fredoka** for headings,
-**Nunito** for body — a playful, kid-friendly, readable pairing) are vendored
+fully offline. Leaflet is vendored under `map/vendor/`. The fonts (**Space Grotesk** for headings,
+**Inter** for body — a clean, modern pairing) are vendored
 under `assets/fonts/`, so styling works offline too — no font-CDN dependency.
 
 ## Browsable website (GitHub Pages)

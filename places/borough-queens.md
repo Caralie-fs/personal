@@ -22,6 +22,10 @@ animals, and huge parks.
 ### 🎠 Attractions & Animals
 - [Socrates Sculpture Park](attraction-socrates-sculpture-park.md) — free · outdoor art · family workshops
 
+### 🏠 Indoor Play Spaces
+- [Kanga's Indoor Playcenter & Cafe](indoor-play-kangas-lic.md) — `$$` · playcenter + cafe · drop-in
+- [Peekaboo Playground](indoor-play-peekaboo-lic.md) — `$$` · castle theme · ages ≤7
+
 ## [Corona](neighborhood-corona.md)
 
 ### 🎨 Museums
@@ -33,10 +37,15 @@ animals, and huge parks.
 ### 🎠 Attractions & Animals
 - [Queens Zoo](attraction-queens-zoo.md) — `$$` · small zoo + petting · 🚗
 
+## [Astoria](neighborhood-astoria.md)
+
+### 🏠 Indoor Play Spaces
+- [Bounce 'N Play](indoor-play-bounce-n-play-astoria.md) — `$$` · bounce + climb · 6-and-under sessions
+
 ## [Glen Oaks](neighborhood-glen-oaks.md) 🚗
 
 ### 🎠 Attractions & Animals
 - [Queens County Farm Museum](attraction-queens-county-farm.md) — free · farm animals · free parking
 
 ## Relationships
-- Back to the [homepage](../index.md) · other boroughs: [Brooklyn](borough-brooklyn.md) · [Manhattan](borough-manhattan.md) · [The Bronx](borough-bronx.md)
+- Back to the [homepage](../index.md) · other boroughs: [Brooklyn](borough-brooklyn.md) · [Manhattan](borough-manhattan.md) · [The Bronx](borough-bronx.md) · [Staten Island](borough-staten-island.md)
