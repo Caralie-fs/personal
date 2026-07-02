@@ -21,6 +21,9 @@ views. One of the best toddler-day stretches in the city on nice weather.
 
 ### 🍴 Kid-Friendly Food
 - [Bubby's](restaurant-bubbys-dumbo.md) — kid-friendly comfort food, refuel stop
+- [Westville DUMBO](restaurant-westville-dumbo.md) — kid-friendly menu, high chairs · `$$`
+- [Ziggy's Roman Café](restaurant-ziggys-dumbo.md) — family pizzeria + play area · `$$`
+- [Clark's](restaurant-clarks-brooklyn-heights.md) — classic diner, high chairs · `$$`
 
 ## Notes
 - Chain Pier 6 → waterfront walk → Jane's Carousel → lunch at Bubby's for a full morning.

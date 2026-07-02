@@ -10,6 +10,10 @@ and easy stroller streets.
 
 ## Places here
 
+### 🛝 Playgrounds & Parks
+- [Hippo Playground (Riverside Park)](playground-hippo-riverside.md) — hippo sculptures + water spray · free · outdoor
+- [Dinosaur Playground (Riverside Park)](playground-dinosaur-riverside.md) — dino sculptures + spray + sandboxes · free · outdoor
+
 ### 🎨 Museums
 - [Children's Museum of Manhattan (CMOM)](museum-cmom.md) — hands-on museum, `$$`, indoor
 - [American Museum of Natural History (AMNH)](museum-amnh.md) — dinosaurs + whales, big-day outing · `$$$`

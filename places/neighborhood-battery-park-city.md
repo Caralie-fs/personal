@@ -12,6 +12,7 @@ playgrounds, and river views.
 
 ### 🛝 Playgrounds & Parks
 - [Teardrop Park](playground-teardrop-park.md) — naturalistic playground, slide + water · free
+- [Nelson A. Rockefeller Park Playground](playground-rockefeller-park-bpc.md) — riverside lawn + playground · free · outdoor
 
 ## Notes
 - The Hudson esplanade is a lovely flat stroller walk.

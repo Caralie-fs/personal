@@ -40,6 +40,14 @@ times, sprinklers, and free museum hours.
   big slide + summer water play.
 - [Washington Square Park](../places/playground-washington-square.md) —
   Greenwich Village; fountain splash + playgrounds + performers.
+- [Billy Johnson Playground](../places/playground-billy-johnson.md) — Central Park; granite slide + toddler climber.
+- [Diana Ross Playground](../places/playground-diana-ross.md) — Central Park (W 81st); big sandbox + wooden structures.
+- [Hippo Playground](../places/playground-hippo-riverside.md) — Riverside Park (UWS); hippo sculptures + summer water spray.
+- [Dinosaur Playground](../places/playground-dinosaur-riverside.md) — Riverside Park (UWS); dino sculptures + spray + sandboxes.
+- [Pier 25 Playground](../places/playground-pier-25-tribeca.md) — Hudson River Park (Tribeca); rock wall + water play + carousel.
+- [Chelsea Waterside Playground](../places/playground-chelsea-waterside.md) — Hudson River Park (Chelsea); pipefish slide + water play.
+- [Pier 51 Playground](../places/playground-pier-51.md) — Hudson River Park (West Village); nautical water + sand play.
+- [Nelson A. Rockefeller Park](../places/playground-rockefeller-park-bpc.md) — Battery Park City; big riverside lawn + playground.
 - [The High Line](../places/attraction-high-line.md) &
   [Little Island](../places/attraction-little-island.md) — Chelsea waterfront
   parks (Little Island may need a free timed ticket in peak season).

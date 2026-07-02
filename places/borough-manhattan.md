@@ -23,6 +23,10 @@ kid outings, an easy L-train or ferry ride from Williamsburg.
 ### 🍴 Kid-Friendly Food
 - [Alice's Tea Cup](restaurant-alices-tea-cup-uws.md) — `$$` · whimsical · brunch
 
+### 🛝 Playgrounds & Parks
+- [Hippo Playground (Riverside Park)](playground-hippo-riverside.md) — free · hippos · water play · sandbox
+- [Dinosaur Playground (Riverside Park)](playground-dinosaur-riverside.md) — free · dinosaurs · spray · sandboxes
+
 ## [Upper East Side](neighborhood-ues.md)
 
 ### 🛝 Playgrounds & Parks
@@ -35,6 +39,8 @@ kid outings, an easy L-train or ferry ride from Williamsburg.
 
 ### 🛝 Playgrounds & Parks
 - [Heckscher Playground](playground-heckscher.md) — free · largest · water play
+- [Billy Johnson Playground](playground-billy-johnson.md) — free · granite slide · toddler net climber
+- [Diana Ross Playground](playground-diana-ross.md) — free · sandbox · wooden climbers
 
 ### 🎠 Attractions & Animals
 - [Central Park Zoo](attraction-central-park-zoo.md) — `$$` · small/walkable · half-day
@@ -49,10 +55,14 @@ kid outings, an easy L-train or ferry ride from Williamsburg.
 ### 🏠 Indoor Play Spaces
 - [Chelsea Piers Field House](indoor-play-chelsea-piers.md) — `$$$` · toddler gym sessions · scales with age
 
+### 🛝 Playgrounds & Parks
+- [Chelsea Waterside Playground](playground-chelsea-waterside.md) — free · pipefish slide · water play · split zones
+
 ## [Greenwich Village](neighborhood-greenwich-village.md)
 
 ### 🛝 Playgrounds & Parks
 - [Washington Square Park](playground-washington-square.md) — free · fountain + playgrounds
+- [Pier 51 Playground](playground-pier-51.md) — free · nautical · water + sand play
 
 ## [SoHo](neighborhood-soho.md)
 
@@ -74,6 +84,7 @@ kid outings, an easy L-train or ferry ride from Williamsburg.
 
 ### 🛝 Playgrounds & Parks
 - [Teardrop Park](playground-teardrop-park.md) — free · slide + water · hidden gem
+- [Nelson A. Rockefeller Park Playground](playground-rockefeller-park-bpc.md) — free · big lawn · structures · esplanade
 
 ## [Financial District](neighborhood-financial-district.md)
 
@@ -82,6 +93,11 @@ kid outings, an easy L-train or ferry ride from Williamsburg.
 
 ### 🏠 Indoor Play Spaces
 - [Complete Playground](indoor-play-complete-playground-fidi.md) — `$$$` · 45,000 sq ft · inclusive + sensory room
+
+## [Tribeca](neighborhood-tribeca.md)
+
+### 🛝 Playgrounds & Parks
+- [Pier 25 Playground](playground-pier-25-tribeca.md) — free · rock wall · water play · carousel · mini-golf
 
 ## Citywide
 

@@ -60,11 +60,17 @@ the Brooklyn Bridge Park waterfront, a children's museum, and Prospect Park.
 
 ### 🍴 Kid-Friendly Food
 - [Bubby's](restaurant-bubbys-dumbo.md) — `$$` · comfort food · brunch
+- [Westville DUMBO](restaurant-westville-dumbo.md) — `$$` · kid menu · high chairs
+- [Ziggy's Roman Café](restaurant-ziggys-dumbo.md) — `$$` · pizza + play area
+- [Clark's](restaurant-clarks-brooklyn-heights.md) — `$$` · diner · high chairs
 
 ## [Downtown Brooklyn](neighborhood-downtown-brooklyn.md)
 
 ### 🎨 Museums
 - [New York Transit Museum](museum-nyc-transit-museum.md) — `$$` · trains · indoor
+
+### 🍴 Kid-Friendly Food
+- [DeKalb Market Hall](restaurant-dekalb-market-hall.md) — `$$` · food hall · picky-eater proof
 
 ## [Prospect Park](neighborhood-prospect-park.md)
 
@@ -72,20 +78,37 @@ the Brooklyn Bridge Park waterfront, a children's museum, and Prospect Park.
 - [Prospect Park (Children's Corner)](attraction-prospect-park.md) — `$` · carousel + zoo
 - [Brooklyn Botanic Garden](garden-brooklyn-botanic.md) — `$$` · Discovery Garden
 
+### 🍴 Kid-Friendly Food
+- [Bareburger](restaurant-bareburger-park-slope.md) — `$$` · kids menu · high chairs · changing table
+- [Tom's Restaurant](restaurant-toms-prospect-heights.md) — `$$` · diner · all-day pancakes
+- [Amorina](restaurant-amorina-prospect-heights.md) — `$$` · Roman pizza · kids menu
+
 ## [Crown Heights](neighborhood-crown-heights.md)
 
 ### 🎨 Museums
 - [Brooklyn Children's Museum](museum-brooklyn-childrens.md) — `$$` · indoor · hands-on
+
+### 🍴 Kid-Friendly Food
+- [Cent'anni](restaurant-centanni-crown-heights.md) — `$$` · Italian · kids menu · garden
+- [Bombay Masala](restaurant-bombay-masala-crown-heights.md) — `$$` · Indian · kid-kind · naan + rice
 
 ## [Greenpoint](neighborhood-greenpoint.md)
 
 ### 🏠 Indoor Play Spaces
 - [Space Club](indoor-play-space-club-greenpoint.md) — `$$$` · star ball pit · design-forward · drop-in
 
+### 🍴 Kid-Friendly Food
+- [21 Greenpoint](restaurant-21-greenpoint.md) — `$$` · kids menu · family favorite
+- [Calexico](restaurant-calexico-greenpoint.md) — `$$` · Cal-Mex · kids menu · garden
+
 ## [Fort Greene](neighborhood-fort-greene.md)
 
 ### 🏠 Indoor Play Spaces
 - [Space Club](indoor-play-space-club-fort-greene.md) — `$$$` · 3 floors + rooftop · cafe · drop-in
+
+### 🍴 Kid-Friendly Food
+- [Dino](restaurant-dino-fort-greene.md) — `$$` · Italian · high chairs · garden
+- [Black Forest Brooklyn](restaurant-black-forest-fort-greene.md) — `$$` · beer garden · kids' games · roomy
 
 ## [Sunset Park](neighborhood-sunset-park.md)
 
@@ -102,10 +125,16 @@ the Brooklyn Bridge Park waterfront, a children's museum, and Prospect Park.
 ### 🏠 Indoor Play Spaces
 - [Sweetspot Playhouse](indoor-play-sweetspot-playhouse.md) — `$$` · 6,000 sq ft play + learn
 
+### 🍴 Kid-Friendly Food
+- [L&B Spumoni Gardens](restaurant-lb-spumoni-gardens-gravesend.md) — `$$` · Sicilian squares · spumoni · classic
+
 ## [Coney Island](neighborhood-coney-island.md)
 
 ### 🎠 Attractions & Animals
 - [New York Aquarium](attraction-ny-aquarium.md) — `$$$` · sharks + sea lions · half-indoor
+
+### 🍴 Kid-Friendly Food
+- [Nathan's Famous](restaurant-nathans-coney-island.md) — `$$` · hot dogs · boardwalk · casual
 
 ## Relationships
 - Back to the [homepage](../index.md) · other boroughs: [Manhattan](borough-manhattan.md) · [Queens](borough-queens.md) · [The Bronx](borough-bronx.md) · [Staten Island](borough-staten-island.md)

@@ -10,6 +10,9 @@ Market for indoor food.
 
 ## Places here
 
+### 🛝 Playgrounds & Parks
+- [Chelsea Waterside Playground](playground-chelsea-waterside.md) — pipefish slide + water play · free · outdoor
+
 ### 🎠 Attractions & Animals
 - [The High Line](attraction-high-line.md) — elevated park walk · free · outdoor
 - [Little Island](attraction-little-island.md) — floating Hudson park · free · outdoor
