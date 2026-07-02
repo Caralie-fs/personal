@@ -59,7 +59,7 @@ blockquote{margin:0;padding:0 1em;color:var(--muted);border-left:3px solid var(-
 """
 
 EMOJI = {"playground":"🛝","museum":"🎨","restaurant":"🍴","library":"📚","class":"🎵",
-         "indoor-play":"🏠","pool":"🏊","other":"📍","neighborhood":"📍","borough":"🗽"}
+         "indoor-play":"🏠","pool":"🏊","other":"📍","neighborhood":"📍","borough":"🗽","store":"🛍️"}
 
 def split_fm(text):
     if text.startswith("---"):

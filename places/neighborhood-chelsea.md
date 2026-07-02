@@ -16,6 +16,7 @@ Market for indoor food.
 ### 🎠 Attractions & Animals
 - [The High Line](attraction-high-line.md) — elevated park walk · free · outdoor
 - [Little Island](attraction-little-island.md) — floating Hudson park · free · outdoor
+- [Pier 62 Carousel](attraction-pier-62-carousel.md) — hand-carved NY-animal carousel on the Hudson · `$`
 
 ### 🏠 Indoor Play Spaces
 - [Chelsea Piers Field House](indoor-play-chelsea-piers.md) — toddler gym sessions · `$$$` · rainy-day

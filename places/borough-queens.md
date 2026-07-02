@@ -37,6 +37,9 @@ animals, and huge parks.
 ### 🎠 Attractions & Animals
 - [Queens Zoo](attraction-queens-zoo.md) — `$$` · small zoo + petting · 🚗
 
+### 🍴 Kid-Friendly Food
+- [Leo's Latticini (Mama's of Corona)](restaurant-leos-latticini-corona.md) — `$$` · deli · picnic heroes
+
 ## [Astoria](neighborhood-astoria.md)
 
 ### 🏠 Indoor Play Spaces

@@ -10,9 +10,9 @@ York City.
 ## Boroughs
 
 <div class="borough-cards">
-<a class="bcard" href="places/borough-brooklyn.md"><div class="bcard-emoji">🌉</div><div class="bcard-name">Brooklyn</div><div class="bcard-sub">🏠 home borough · 11 neighborhoods · 50 places</div></a>
-<a class="bcard" href="places/borough-manhattan.md"><div class="bcard-emoji">🏙️</div><div class="bcard-name">Manhattan</div><div class="bcard-sub">11 neighborhoods · 28 places</div></a>
-<a class="bcard" href="places/borough-queens.md"><div class="bcard-emoji">🎡</div><div class="bcard-name">Queens</div><div class="bcard-sub">4 neighborhoods · 9 places</div></a>
+<a class="bcard" href="places/borough-brooklyn.md"><div class="bcard-emoji">🌉</div><div class="bcard-name">Brooklyn</div><div class="bcard-sub">🏠 home borough · 12 neighborhoods · 56 places</div></a>
+<a class="bcard" href="places/borough-manhattan.md"><div class="bcard-emoji">🏙️</div><div class="bcard-name">Manhattan</div><div class="bcard-sub">13 neighborhoods · 36 places</div></a>
+<a class="bcard" href="places/borough-queens.md"><div class="bcard-emoji">🎡</div><div class="bcard-name">Queens</div><div class="bcard-sub">4 neighborhoods · 10 places</div></a>
 <a class="bcard" href="places/borough-bronx.md"><div class="bcard-emoji">🦁</div><div class="bcard-name">The Bronx</div><div class="bcard-sub">3 neighborhoods · 4 places · 🚗</div></a>
 <a class="bcard" href="places/borough-staten-island.md"><div class="bcard-emoji">⛴️</div><div class="bcard-name">Staten Island</div><div class="bcard-sub">2 neighborhoods · 2 places · free ferry</div></a>
 </div>
@@ -33,4 +33,4 @@ York City.
 - [NYPL Toddler Story Time](places/event-storytime-nypl.md) — free · indoor · recurring · branches everywhere
 
 ---
-*Stats: 93 places/events · 5 boroughs · 31 neighborhoods · 5 guides · last updated 2026-07-02 · 🏠 = walkable from Williamsburg · 🚗 = car recommended*
+*Stats: 108 places/events · 5 boroughs · 34 neighborhoods · 5 guides · last updated 2026-07-02 · 🏠 = walkable from Williamsburg · 🚗 = car recommended*

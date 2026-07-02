@@ -20,6 +20,7 @@ and easy stroller streets.
 
 ### 🍴 Kid-Friendly Food
 - [Alice's Tea Cup](restaurant-alices-tea-cup-uws.md) — whimsical tea house, brunch · `$$`
+- [Jacob's Pickles](restaurant-jacobs-pickles-uws.md) — Southern comfort, big portions · `$$`
 
 ## Notes
 - Central Park's west-side playgrounds are close by (add as you visit them).
