@@ -68,7 +68,15 @@ table.db thead th{background:#fafafa;cursor:pointer;user-select:none;font-family
 table.db thead th:hover{color:var(--accent);}
 table.db thead th .ar{opacity:.35;font-size:9px;margin-left:3px;}
 table.db tbody tr:hover td{background:#f7f7fb;}
+table.db td.desc{white-space:normal;color:var(--muted);font-size:13px;min-width:200px;max-width:360px;}
 .db-empty{padding:20px;color:var(--muted);text-align:center;}
+.homelink{display:inline-block;margin:6px 0 2px;font-weight:600;}
+/* 🌈🦄 colorful background (cards stay opaque so text is readable) */
+body{background:linear-gradient(135deg,#ffc2d1,#ffe0b0,#fff6b0,#c2f0cb,#b3e0ff,#dcc6ff);background-attachment:fixed;}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.13;
+  background-image:url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='150'%20height='150'%3E%3Ctext%20x='14'%20y='48'%20font-size='42'%3E🦄%3C/text%3E%3Ctext%20x='84'%20y='126'%20font-size='42'%3E🌈%3C/text%3E%3C/svg%3E");
+  background-size:150px 150px;}
+.nav{background:rgba(255,255,255,.80);}
 """
 
 EMOJI = {"playground":"🛝","museum":"🎨","restaurant":"🍴","library":"📚","class":"🎵",
@@ -112,7 +120,8 @@ def render(rel, prefix):
         head = f'<div class="title-row"><h1>{emoji} {html.escape(str(title))}</h1>{badge}</div>'
     body_html = rewrite_links(markdown.markdown(body, extensions=["extra","sane_lists","nl2br"]))
     nav = (f'<div class="nav"><a class="brand" href="{prefix}index.html">🗽 Toddler Guide NYC</a>'
-           f'<a href="{prefix}index.html">Home</a><a href="{prefix}map/map.html">🗺️ Map</a>'
+           f'<a href="{prefix}index.html">Home</a><a href="{prefix}database.html">🔎 Database</a>'
+           f'<a href="{prefix}map/map.html">🗺️ Map</a>'
            f'<span class="sp"></span><span style="color:#a1a1aa;font-size:12px">{html.escape(rel)}</span></div>')
     return (f'<!doctype html><html><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width, initial-scale=1">'
@@ -122,63 +131,104 @@ def render(rel, prefix):
 
 COST_RANK = {"free":"0","$":"1","$$":"2","$$$":"3","reservation":"2.5"}
 
-def build_db_table():
-    """A searchable, sortable, filterable table of every place — the database view."""
-    rows, boroughs, cats = [], set(), set()
+IND_LABEL = {"true":"indoor","false":"outdoor","both":"both"}
+
+DB_SCRIPT = ("<script>(function(){var q=document.getElementById('dbq'),bb=document.getElementById('dbb'),"
+  "cc=document.getElementById('dbc'),tbl=document.getElementById('dbtable');if(!tbl)return;"
+  "var rows=[].slice.call(tbl.tBodies[0].rows),cnt=document.getElementById('dbcount');"
+  "function apply(){var s=(q.value||'').toLowerCase().trim(),b=bb?bb.value:'',c=cc?cc.value:'',n=0;"
+  "rows.forEach(function(r){var ok=(!s||r.dataset.search.indexOf(s)>=0)&&(!b||r.dataset.borough===b)&&(!c||r.dataset.category===c);"
+  "r.style.display=ok?'':'none';if(ok)n++;});cnt.textContent=n+' place'+(n===1?'':'s');"
+  "document.getElementById('dbempty').style.display=n?'none':'';}"
+  "[q,bb,cc].forEach(function(e){if(e){e.addEventListener('input',apply);e.addEventListener('change',apply);}});"
+  "var dir={};[].slice.call(tbl.tHead.rows[0].cells).forEach(function(th,i){th.addEventListener('click',function(){"
+  "dir[i]=!dir[i];var d=dir[i]?1:-1,tb=tbl.tBodies[0];"
+  "rows.slice().sort(function(a,b){var x=a.cells[i].dataset.sort||a.cells[i].textContent.trim().toLowerCase(),"
+  "y=b.cells[i].dataset.sort||b.cells[i].textContent.trim().toLowerCase(),nx=parseFloat(x),ny=parseFloat(y);"
+  "if(!isNaN(nx)&&!isNaN(ny))return (nx-ny)*d;return x<y?-d:x>y?d:0;})"
+  ".forEach(function(r){tb.appendChild(r);});});});})();</script>")
+
+def _load_places():
+    out = []
     for p in sorted((ROOT/"places").glob("*.md")):
         if p.name == "_template.md": continue
-        fm, _ = split_fm(p.read_text())
+        fm, body = split_fm(p.read_text())
         if fm.get("type") not in ("place", "event"): continue
-        name = fm.get("name") or p.stem
-        cat = fm.get("category") or "other"
-        nb = fm.get("neighborhood") or ""
-        boro = fm.get("borough") or ""
-        cost = str(fm.get("cost") or "")
-        ind = {"true":"indoor","false":"outdoor","both":"both"}.get(str(fm.get("indoor")).lower(), "")
-        ages = fm.get("age_range") or ""
+        summ = ""
+        for line in body.strip().splitlines():
+            s = line.strip()
+            if s and not s.startswith(("#", "-", "<", "|", "*")):
+                summ = re.sub(r"[*_`]", "", s); break
+        if len(summ) > 90: summ = summ[:88].rstrip() + "…"
         tags = fm.get("tags") or []
-        walk = "🏠" if "walkable" in tags else ""
-        emoji = EMOJI.get(cat, "📍")
-        href = "places/" + p.stem + ".html"
-        search = " ".join([str(name), str(nb), str(boro), str(cat)] + [str(t) for t in tags]).lower()
-        boroughs.add(boro); cats.add(cat)
-        rows.append(
-          f'<tr data-search="{html.escape(search)}" data-borough="{html.escape(boro)}" data-category="{html.escape(cat)}">'
-          f'<td class="name"><a href="{href}">{emoji} {html.escape(str(name))}</a></td>'
-          f'<td>{html.escape(cat)}</td><td>{html.escape(str(nb))}</td><td>{html.escape(str(boro))}</td>'
-          f'<td data-sort="{COST_RANK.get(cost,"9")}">{html.escape(cost)}</td>'
-          f'<td>{ind}</td><td>{html.escape(str(ages))}</td><td>{walk}</td></tr>')
-    boro_opts = "".join(f'<option value="{html.escape(b)}">{html.escape(b)}</option>' for b in sorted(boroughs) if b)
-    cat_opts = "".join(f'<option value="{html.escape(c)}">{html.escape(c)}</option>' for c in sorted(cats) if c)
-    heads = ["Place","Category","Neighborhood","Borough","Cost","Indoor","Ages","🏠"]
-    thead = "".join(f'<th>{h}<span class="ar">▲▼</span></th>' for h in heads)
-    controls = (f'<div class="db-controls">'
-      f'<input id="dbq" type="search" placeholder="Search {len(rows)} places — name, neighborhood, tag…" aria-label="Search places">'
-      f'<select id="dbb" aria-label="Borough"><option value="">All boroughs</option>{boro_opts}</select>'
-      f'<select id="dbc" aria-label="Category"><option value="">All categories</option>{cat_opts}</select>'
-      f'<span class="count" id="dbcount">{len(rows)} places</span></div>')
-    table = (f'<div class="db-wrap"><table class="db" id="dbtable"><thead><tr>{thead}</tr></thead>'
-      f'<tbody>{"".join(rows)}</tbody></table><div class="db-empty" id="dbempty" style="display:none">No matches — try clearing a filter.</div></div>')
-    script = ("<script>(function(){var q=document.getElementById('dbq'),bb=document.getElementById('dbb'),"
-      "cc=document.getElementById('dbc'),tbl=document.getElementById('dbtable'),"
-      "rows=[].slice.call(tbl.tBodies[0].rows),cnt=document.getElementById('dbcount');"
-      "function apply(){var s=(q.value||'').toLowerCase().trim(),b=bb.value,c=cc.value,n=0;"
-      "rows.forEach(function(r){var ok=(!s||r.dataset.search.indexOf(s)>=0)&&(!b||r.dataset.borough===b)&&(!c||r.dataset.category===c);"
-      "r.style.display=ok?'':'none';if(ok)n++;});cnt.textContent=n+' place'+(n===1?'':'s');"
-      "document.getElementById('dbempty').style.display=n?'none':'';}"
-      "[q,bb,cc].forEach(function(e){e.addEventListener('input',apply);e.addEventListener('change',apply);});"
-      "var dir={};[].slice.call(tbl.tHead.rows[0].cells).forEach(function(th,i){th.addEventListener('click',function(){"
-      "dir[i]=!dir[i];var d=dir[i]?1:-1,tb=tbl.tBodies[0];"
-      "rows.slice().sort(function(a,b){var x=a.cells[i].dataset.sort||a.cells[i].textContent.trim().toLowerCase(),"
-      "y=b.cells[i].dataset.sort||b.cells[i].textContent.trim().toLowerCase(),nx=parseFloat(x),ny=parseFloat(y);"
-      "if(!isNaN(nx)&&!isNaN(ny))return (nx-ny)*d;return x<y?-d:x>y?d:0;})"
-      ".forEach(function(r){tb.appendChild(r);});});});})();</script>")
-    return controls + table + script
+        out.append({
+            "name": str(fm.get("name") or p.stem), "slug": p.stem,
+            "category": str(fm.get("category") or "other"),
+            "neighborhood": str(fm.get("neighborhood") or ""),
+            "borough": str(fm.get("borough") or ""),
+            "cost": str(fm.get("cost") or ""),
+            "indoor": IND_LABEL.get(str(fm.get("indoor")).lower(), ""),
+            "ages": str(fm.get("age_range") or ""),
+            "walk": "🏠" if "walkable" in tags else "", "summary": summ,
+            "search": " ".join([str(fm.get(k) or "") for k in ("name","neighborhood","borough","category")]
+                               + [str(t) for t in tags]).lower(),
+        })
+    return out
+
+COLS = {
+ "name": ("Place", lambda p, pre: f'<td class="name"><a href="{pre}{p["slug"]}.html">{EMOJI.get(p["category"],"📍")} {html.escape(p["name"])}</a></td>'),
+ "category": ("Category", lambda p, pre: f'<td>{html.escape(p["category"])}</td>'),
+ "neighborhood": ("Neighborhood", lambda p, pre: f'<td>{html.escape(p["neighborhood"])}</td>'),
+ "borough": ("Borough", lambda p, pre: f'<td>{html.escape(p["borough"])}</td>'),
+ "cost": ("Cost", lambda p, pre: f'<td data-sort="{COST_RANK.get(p["cost"],"9")}">{html.escape(p["cost"])}</td>'),
+ "indoor": ("Indoor", lambda p, pre: f'<td>{p["indoor"]}</td>'),
+ "ages": ("Ages", lambda p, pre: f'<td>{html.escape(p["ages"])}</td>'),
+ "walk": ("🏠", lambda p, pre: f'<td>{p["walk"]}</td>'),
+ "desc": ("Notes", lambda p, pre: f'<td class="desc">{html.escape(p["summary"])}</td>'),
+}
+
+def build_table(rows, place_prefix, columns, filters, all_places):
+    heads = "".join(f'<th>{COLS[c][0]}<span class="ar">▲▼</span></th>' for c in columns)
+    trs = "".join(
+        f'<tr data-search="{html.escape(p["search"])}" data-borough="{html.escape(p["borough"])}" '
+        f'data-category="{html.escape(p["category"])}">'
+        + "".join(COLS[c][1](p, place_prefix) for c in columns) + "</tr>" for p in rows)
+    ctl = ['<div class="db-controls">',
+           f'<input id="dbq" type="search" placeholder="Search {len(rows)} places…" aria-label="Search">']
+    if "borough" in filters:
+        o = "".join(f'<option value="{html.escape(b)}">{html.escape(b)}</option>'
+                    for b in sorted({x["borough"] for x in all_places if x["borough"]}))
+        ctl.append(f'<select id="dbb" aria-label="Borough"><option value="">All boroughs</option>{o}</select>')
+    if "category" in filters:
+        o = "".join(f'<option value="{html.escape(c)}">{html.escape(c)}</option>'
+                    for c in sorted({x["category"] for x in rows if x["category"]}))
+        ctl.append(f'<select id="dbc" aria-label="Category"><option value="">All categories</option>{o}</select>')
+    ctl.append(f'<span class="count" id="dbcount">{len(rows)} places</span></div>')
+    table = (f'<div class="db-wrap"><table class="db" id="dbtable"><thead><tr>{heads}</tr></thead>'
+             f'<tbody>{trs}</tbody></table>'
+             f'<div class="db-empty" id="dbempty" style="display:none">No matches — try clearing a filter.</div></div>')
+    return "".join(ctl) + table + DB_SCRIPT
+
+def build_full_db(place_prefix):
+    ps = _load_places()
+    return build_table(ps, place_prefix, ["name","category","neighborhood","borough","cost","indoor","ages","walk"],
+                       {"search","borough","category"}, ps)
+
+def build_borough_table(boro, place_prefix=""):
+    ps = _load_places(); rows = [p for p in ps if p["borough"] == boro]
+    return build_table(rows, place_prefix, ["name","category","neighborhood","cost","indoor","ages","walk","desc"],
+                       {"search","category"}, ps)
+
+def build_nbhd_table(name, aliases, place_prefix=""):
+    ps = _load_places(); names = {name} | set(aliases or [])
+    rows = [p for p in ps if p["neighborhood"] in names]
+    return build_table(rows, place_prefix, ["name","category","cost","indoor","ages","walk","desc"],
+                       {"search"}, ps)
 
 def main():
     if SITE.exists(): shutil.rmtree(SITE)
     SITE.mkdir()
-    pages = ["index.md"] + sorted(
+    pages = ["index.md", "database.md"] + sorted(
         str(p.relative_to(ROOT)) for p in list((ROOT/"places").glob("*.md")) + list((ROOT/"guides").glob("*.md"))
         if p.name != "_template.md")
     for rel in pages:
@@ -187,8 +237,15 @@ def main():
         out = SITE / rel.replace(".md", ".html")
         out.parent.mkdir(parents=True, exist_ok=True)
         html_str = render(rel, prefix)
-        if rel == "index.md":
-            html_str = html_str.replace("<p>[[DATABASE_TABLE]]</p>", build_db_table())
+        raw = (ROOT / rel).read_text()
+        place_prefix = "" if rel.startswith("places/") else "places/"
+        if "[[DATABASE_TABLE]]" in raw:
+            html_str = html_str.replace("<p>[[DATABASE_TABLE]]</p>", build_full_db(place_prefix))
+        if "[[PLACES_TABLE]]" in raw:
+            fm, _ = split_fm(raw)
+            tbl = (build_borough_table(fm.get("borough"), place_prefix) if fm.get("type") == "borough"
+                   else build_nbhd_table(fm.get("name"), fm.get("aliases"), place_prefix))
+            html_str = html_str.replace("<p>[[PLACES_TABLE]]</p>", tbl)
         out.write_text(html_str)
     # Copy vendored assets (fonts) and the map (with popups pointed at .html).
     shutil.copytree(ROOT/"assets", SITE/"assets")

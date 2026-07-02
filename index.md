@@ -5,16 +5,9 @@ York City.
 
 🏠 **Home base: [Williamsburg](places/neighborhood-williamsburg.md)** · 👧🧒 **Kids: 3 & 5** · 🚗 **We have a car** (parking notes on each page)
 
-**Map:** [All NYC](map/map.html) — per-borough maps live on each borough page below
+**[🔎 Search the full database →](database.md)** — all places in one sortable, filterable table. · **Map:** [All NYC](map/map.html)
 
-## 🔎 Search all places
-
-Type to filter, pick a borough/category, or click a column to sort. Every place
-in the database, in one table.
-
-[[DATABASE_TABLE]]
-
-## Browse by borough
+## Boroughs
 
 <div class="borough-cards">
 <a class="bcard" href="places/borough-brooklyn.md"><div class="bcard-emoji">🌉</div><div class="bcard-name">Brooklyn</div><div class="bcard-sub">🏠 home borough · 12 neighborhoods · 56 places</div></a>

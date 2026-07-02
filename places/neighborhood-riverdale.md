@@ -9,8 +9,7 @@ Leafy NW Bronx neighborhood above the Hudson — home to Wave Hill.
 
 ## Places here
 
-### 🎠 Attractions & Animals
-- [Wave Hill](garden-wave-hill.md) — public garden, river views, family art · `$$` · free parking
+[[PLACES_TABLE]]
 
 ## Notes
 - Easiest by car (free on-site parking) — ≈30–40 min from Williamsburg.

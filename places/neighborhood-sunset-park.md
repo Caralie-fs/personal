@@ -9,8 +9,7 @@ Industry City's food halls and courtyards — an easy indoor-outdoor day off the
 
 ## Places here
 
-### 🏠 Indoor Play Spaces
-- [CREA Interactivity (Industry City)](indoor-play-crea-industry-city.md) — tech quest space · `$$$` · skews 5yo+
+[[PLACES_TABLE]]
 
 ## Notes
 - Industry City = stroller-friendly food hall lunch (Japan Village) + courtyards.

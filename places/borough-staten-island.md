@@ -15,15 +15,9 @@ toddler-scaled zoo. Also an easy off-route stop on the drive in from New Jersey.
 
 [Open the full-screen Staten Island map →](../map/staten-island.html)
 
-## [Snug Harbor](neighborhood-snug-harbor.md) ⛴️
+## Places
 
-### 🎨 Museums
-- [Staten Island Children's Museum](museum-si-childrens-museum.md) — `$$` · hands-on · closed Mon–Tue
-
-## [West Brighton](neighborhood-west-brighton.md)
-
-### 🎠 Attractions & Animals
-- [Staten Island Zoo](attraction-staten-island-zoo.md) — `$` · small zoo + reptile house · free Wed 2–4pm
+[[PLACES_TABLE]]
 
 ## Relationships
 - Back to the [homepage](../index.md) · other boroughs: [Brooklyn](borough-brooklyn.md) · [Manhattan](borough-manhattan.md) · [Queens](borough-queens.md) · [The Bronx](borough-bronx.md)

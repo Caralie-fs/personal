@@ -9,18 +9,7 @@ Queens neighborhood anchored by Flushing Meadows–Corona Park and its museums.
 
 ## Places here
 
-### 🎨 Museums
-- [New York Hall of Science (NYSCI)](museum-nysci.md) — hands-on science, `$$`, seasonal outdoor playground
-- [Queens Museum](museum-queens-museum.md) — Panorama + hands-on art lab · $$
-
-### 🛝 Playgrounds & Parks
-- [Flushing Meadows–Corona Park](attraction-flushing-meadows.md) — huge park, playgrounds, fountain · free
-
-### 🎠 Attractions & Animals
-- [Queens Zoo](attraction-queens-zoo.md) — small walkable zoo + petting area · `$$`
-
-### 🍴 Kid-Friendly Food
-- [Leo's Latticini (Mama's of Corona)](restaurant-leos-latticini-corona.md) — legendary deli, picnic heroes · `$$`
+[[PLACES_TABLE]]
 
 ## Notes
 - Stack NYSCI + Queens Zoo + a park playground for a full car day (park lots on-site).

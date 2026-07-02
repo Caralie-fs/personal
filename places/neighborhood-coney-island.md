@@ -9,11 +9,7 @@ Boardwalk, beach, and the aquarium — the classic big summer day out.
 
 ## Places here
 
-### 🎠 Attractions & Animals
-- [New York Aquarium](attraction-ny-aquarium.md) — sharks + sea lions on the boardwalk · `$$$` · half-indoor
-
-### 🍴 Kid-Friendly Food
-- [Nathan's Famous](restaurant-nathans-coney-island.md) — original boardwalk hot dogs · `$$`
+[[PLACES_TABLE]]
 
 ## Notes
 - Deno's Wonder Wheel kiddie park (seasonal) and the beach are right there — add pages as visited.

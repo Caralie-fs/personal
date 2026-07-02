@@ -9,8 +9,7 @@ Midtown-south area around Madison Square Park — green space and easy eats.
 
 ## Places here
 
-### 🍴 Kid-Friendly Food
-- [Shake Shack (Madison Square Park)](restaurant-shake-shack-madison-sq.md) — the original · `$$` · park setting
+[[PLACES_TABLE]]
 
 ## Notes
 - Madison Square Park has a playground and open lawns.

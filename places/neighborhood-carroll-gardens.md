@@ -10,14 +10,7 @@ old-fashioned soda fountain.
 
 ## Places here
 
-### 🛝 Playgrounds & Parks
-- [Carroll Park](playground-carroll-park.md) — preschooler + big-kid areas, year-round bathrooms · free · outdoor
-
-### 🍴 Kid-Friendly Food
-- [Brooklyn Farmacy & Soda Fountain](restaurant-brooklyn-farmacy-carroll-gardens.md) — restored 1920s soda fountain, sundaes · `$$`
-
-### 🛍️ Books & Stores
-- [Books Are Magic](store-books-are-magic.md) — indie bookstore + kids' story-time nook · free
+[[PLACES_TABLE]]
 
 ## Notes
 - Just off the BQE (see the [NJ commute guide](../guides/commute-aberdeen-nj.md)).

@@ -9,8 +9,7 @@ Eastern Queens — home to the Queens County Farm Museum. A car destination.
 
 ## Places here
 
-### 🎠 Attractions & Animals
-- [Queens County Farm Museum](attraction-queens-county-farm.md) — working farm, free, free parking
+[[PLACES_TABLE]]
 
 ## Notes
 - **Best reached by car** — free on-site parking and a ~30–45 min drive from

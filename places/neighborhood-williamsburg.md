@@ -10,36 +10,7 @@ with toddler options, most of them walkable or a short stroller push.
 
 ## Places here
 
-### 🛝 Playgrounds & Parks
-- [Domino Park Playground](playground-domino-park.md) — waterfront playground + summer water play · free · outdoor
-- [McCarren Park Playground](playground-mccarren-park.md) — big park, fields, summer pool · free · outdoor
-- [Bushwick Inlet Park](playground-bushwick-inlet-park.md) — waterfront fields + playground · free · outdoor
-- [William Sheridan Playground](playground-william-sheridan.md) — south-side neighborhood playground + sprinklers · free · outdoor
-- [Cooper Park](playground-cooper-park.md) — East Williamsburg green: playground, sprinklers, dog run · free · outdoor
-- [Martinez Playground](playground-martinez.md) — off the Graham Ave L, sprinklers · free · outdoor
-- [Jaime Campiz Playground](playground-jaime-campiz.md) — turf field + play equipment · free · outdoor
-- [Jacob's Ladder Playground](playground-jacobs-ladder.md) — quiet south-side spot near the Kent Ave greenway · free · outdoor
-
-### 🏠 Indoor Play Spaces
-- [The Canopy NYC](indoor-play-canopy.md) — indoor baby/toddler playspace · `$$$` · rainy/winter go-to
-- [Twinkle Playspace](indoor-play-twinkle-williamsburg.md) — imaginative sets, ages 0–6 · `$$` · reservations
-- [Tiny Hearts Play Cafe](indoor-play-tiny-hearts-williamsburg.md) — Montessori play cafe, ages 0–6 · `$$` · reservations
-
-### 📚 Library Story Times
-- [BPL Williamsburg Story Time](event-storytime-bpl-williamsburg.md) — free indoor library story time · recurring
-
-### 🎵 Classes
-- [Music Together](class-music-together-williamsburg.md) — parent-and-toddler music class · indoor
-
-### 🍴 Kid-Friendly Food
-- [Afuri Ramen](restaurant-afuri-williamsburg.md) — ramen with a kids menu · `$$`
-- [Café Mogador](restaurant-cafe-mogador.md) — kid-friendly Moroccan, high chairs · `$$`
-- [Teddy's Bar & Grill](restaurant-teddys-williamsburg.md) — oldest bar in Williamsburg, family brunch · `$$`
-- [Kellogg's Diner](restaurant-kelloggs-diner-williamsburg.md) — revamped 24-hr diner, all-day comfort food · `$$`
-- [Jack's Wife Freda](restaurant-jacks-wife-freda-williamsburg.md) — all-day Mediterranean, kids menu + crayons · `$$`
-- [Kings County Imperial](restaurant-kings-county-imperial-williamsburg.md) — roomy family-style Chinese, high chairs · `$$`
-- [K'Far (The Hoxton)](restaurant-kfar-williamsburg.md) — colorful all-day Israeli cafe, big pastry case · `$$`
-- [Smorgasburg](event-smorgasburg.md) — weekend open-air food market · seasonal
+[[PLACES_TABLE]]
 
 ## Upcoming events
 - 📅 [Williamsburg Weekends](../guides/williamsburg-weekends.md) — dated

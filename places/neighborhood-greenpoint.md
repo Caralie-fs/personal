@@ -9,12 +9,7 @@ Williamsburg's northern neighbor — McGolrick and Transmitter parks, and a stan
 
 ## Places here
 
-### 🏠 Indoor Play Spaces
-- [Space Club](indoor-play-space-club-greenpoint.md) — design-forward playground, star ball pit · `$$$` · drop-in
-
-### 🍴 Kid-Friendly Food
-- [21 Greenpoint](restaurant-21-greenpoint.md) — kids menu, family favorite · `$$`
-- [Calexico](restaurant-calexico-greenpoint.md) — Cal-Mex, kids menu + garden · `$$`
+[[PLACES_TABLE]]
 
 ## Notes
 - McGolrick Park (playground + farmers market) and Transmitter Park (waterfront) are unpaged quick stops — add when visited.

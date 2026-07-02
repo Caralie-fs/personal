@@ -10,8 +10,7 @@ the Bronx Children's Museum.
 
 ## Places here
 
-### 🎨 Museums
-- [Bronx Children's Museum](museum-bronx-childrens.md) — hands-on, nature-themed · `$$` · indoor
+[[PLACES_TABLE]]
 
 ## Notes
 - One of the quicker Bronx drives from Williamsburg (≈20–30 min).
