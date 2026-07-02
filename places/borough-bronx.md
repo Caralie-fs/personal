@@ -31,4 +31,4 @@ Mostly car territory from Williamsburg (20–40 min), with parking at the big st
 - [Wave Hill](garden-wave-hill.md) — `$$` · garden + river views · free parking
 
 ## Relationships
-- Back to the [homepage](../index.md) · other boroughs: [Brooklyn](borough-brooklyn.md) · [Manhattan](borough-manhattan.md) · [Queens](borough-queens.md)
+- Back to the [homepage](../index.md) · other boroughs: [Brooklyn](borough-brooklyn.md) · [Manhattan](borough-manhattan.md) · [Queens](borough-queens.md) · [Staten Island](borough-staten-island.md)

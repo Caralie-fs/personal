@@ -15,6 +15,10 @@ Queens waterfront across from Midtown — one ferry stop from North Williamsburg
 ### 🎠 Attractions & Animals
 - [Socrates Sculpture Park](attraction-socrates-sculpture-park.md) — outdoor art + free family workshops · free
 
+### 🏠 Indoor Play Spaces
+- [Kanga's Indoor Playcenter & Cafe](indoor-play-kangas-lic.md) — playcenter + cafe, drop-in · `$$`
+- [Peekaboo Playground](indoor-play-peekaboo-lic.md) — castle theme, ages ≤7 · `$$`
+
 ## Notes
 - Closest "other borough" trip from Williamsburg — ferry or a short drive over
   the Pulaski Bridge.

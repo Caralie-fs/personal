@@ -23,6 +23,7 @@ the Brooklyn Bridge Park waterfront, a children's museum, and Prospect Park.
 
 ### 🏠 Indoor Play Spaces
 - [The Canopy NYC](indoor-play-canopy.md) — `$$$` · baby/toddler · rainy-day
+- [Twinkle Playspace](indoor-play-twinkle-williamsburg.md) — `$$` · imaginative sets · ages 0–6 · walkable
 
 ### 📚 Library Story Times
 - [BPL Williamsburg Story Time](event-storytime-bpl-williamsburg.md) — free · indoor · recurring
@@ -43,6 +44,9 @@ the Brooklyn Bridge Park waterfront, a children's museum, and Prospect Park.
 ### 🎠 Attractions & Animals
 - [Jane's Carousel](attraction-janes-carousel.md) — `$` · weather-flexible · quick
 
+### 🏠 Indoor Play Spaces
+- [Recess (DUMBO)](indoor-play-recess-dumbo.md) — `$$` · designed playscape · 6mo–6yr
+
 ### 🍴 Kid-Friendly Food
 - [Bubby's (DUMBO)](restaurant-bubbys-dumbo.md) — `$$` · comfort food · brunch
 
@@ -62,5 +66,35 @@ the Brooklyn Bridge Park waterfront, a children's museum, and Prospect Park.
 ### 🎨 Museums
 - [Brooklyn Children's Museum](museum-brooklyn-childrens.md) — `$$` · indoor · hands-on
 
+## [Greenpoint](neighborhood-greenpoint.md)
+
+### 🏠 Indoor Play Spaces
+- [Space Club (Greenpoint)](indoor-play-space-club-greenpoint.md) — `$$$` · star ball pit · design-forward · drop-in
+
+## [Fort Greene](neighborhood-fort-greene.md)
+
+### 🏠 Indoor Play Spaces
+- [Space Club (Fort Greene)](indoor-play-space-club-fort-greene.md) — `$$$` · 3 floors + rooftop · cafe · drop-in
+
+## [Sunset Park](neighborhood-sunset-park.md)
+
+### 🏠 Indoor Play Spaces
+- [CREA Interactivity (Industry City)](indoor-play-crea-industry-city.md) — `$$$` · tech quest · skews 5yo+
+
+## [Bay Ridge](neighborhood-bay-ridge.md)
+
+### 🏠 Indoor Play Spaces
+- [Fairytale Island](indoor-play-fairytale-island-bay-ridge.md) — `$$` · playground + cafe
+
+## [Gravesend](neighborhood-gravesend.md)
+
+### 🏠 Indoor Play Spaces
+- [Sweetspot Playhouse](indoor-play-sweetspot-playhouse.md) — `$$` · 6,000 sq ft play + learn
+
+## [Coney Island](neighborhood-coney-island.md)
+
+### 🎠 Attractions & Animals
+- [New York Aquarium](attraction-ny-aquarium.md) — `$$$` · sharks + sea lions · half-indoor
+
 ## Relationships
-- Back to the [homepage](../index.md) · other boroughs: [Manhattan](borough-manhattan.md) · [Queens](borough-queens.md) · [The Bronx](borough-bronx.md)
+- Back to the [homepage](../index.md) · other boroughs: [Manhattan](borough-manhattan.md) · [Queens](borough-queens.md) · [The Bronx](borough-bronx.md) · [Staten Island](borough-staten-island.md)

@@ -17,6 +17,7 @@ with toddler options, most of them walkable or a short stroller push.
 
 ### 🏠 Indoor Play Spaces
 - [The Canopy NYC](indoor-play-canopy.md) — indoor baby/toddler playspace · `$$$` · rainy/winter go-to
+- [Twinkle Playspace](indoor-play-twinkle-williamsburg.md) — imaginative sets, ages 0–6 · `$$` · reservations
 
 ### 📚 Library Story Times
 - [BPL Williamsburg Story Time](event-storytime-bpl-williamsburg.md) — free indoor library story time · recurring

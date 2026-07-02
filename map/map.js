@@ -29,7 +29,7 @@
       ? { type: "FeatureCollection", features: NYC_BOROUGHS.features.filter((f) => f.properties && f.properties.name === BOROUGH) }
       : NYC_BOROUGHS;
     boroLayer = L.geoJSON(feats, {
-      style: () => ({ color: "#d6478f", weight: 1.5, fillColor: "#f7c4dd", fillOpacity: 0.9 }),
+      style: () => ({ color: "#a1a1aa", weight: 1.25, fillColor: "#f4f4f5", fillOpacity: 0.95 }),
     }).addTo(map);
     boroLayer.eachLayer((l) => {
       const nm = l.feature && l.feature.properties && l.feature.properties.name;
@@ -75,7 +75,7 @@
   if (sw) {
     const tabs = [["", "All NYC", "map.html"], ["Manhattan", "Manhattan", "manhattan.html"],
                   ["Brooklyn", "Brooklyn", "brooklyn.html"], ["Queens", "Queens", "queens.html"],
-                  ["Bronx", "Bronx", "bronx.html"]];
+                  ["Bronx", "Bronx", "bronx.html"], ["Staten Island", "Staten Island", "staten-island.html"]];
     sw.innerHTML = tabs.map(([b, label, href]) =>
       `<a class="tab${(BOROUGH || "") === b ? " active" : ""}" href="${href}">${label}</a>`).join("");
   }

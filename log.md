@@ -67,3 +67,10 @@ Types: ADD, UPDATE, GUIDE, NEIGHBORHOOD, REMOVE.
 - 2026-07-02T17:00:00Z | ADD | map/bronx.html — Bronx borough map (geometry already in boroughs.js); switcher in map.js += Bronx tab
 - 2026-07-02T17:00:00Z | UPDATE | index.md — homepage is now a borough card grid (styled via build_site.py .borough-cards/.bcard CSS); per-borough map links moved onto borough pages
 - 2026-07-02T17:00:00Z | UPDATE | all 20 neighborhood pages — reciprocal "Part of [borough hub]" link; README + CLAUDE.md note the fifth (Bronx) map
+- 2026-07-02T18:00:00Z | ADD | 17 places from Mommy Poppins / r/sahm / GetYourGuide sourcing (web-searched, verify-flagged): Twinkle, Space Club GP+FG, Recess, CREA, Fairytale Island, Sweetspot, NY Aquarium, Complete Playground, Chelsea Piers, Museum of Ice Cream, Color Factory, Kanga's, Peekaboo, Bounce 'N Play, SI Children's Museum, SI Zoo
+- 2026-07-02T18:00:00Z | NEIGHBORHOOD | created greenpoint, fort-greene, sunset-park, bay-ridge, gravesend, coney-island, soho, astoria, snug-harbor, west-brighton
+- 2026-07-02T18:00:00Z | ADD | Staten Island borough — borough-staten-island.md + map/staten-island.html + homepage card + switcher tab
+- 2026-07-02T18:00:00Z | GUIDE | guides/commute-aberdeen-nj.md — parks/playgrounds off the Aberdeen NJ ↔ Williamsburg drive, in route order
+- 2026-07-02T18:00:00Z | GUIDE | rainy-day += 15 indoor entries (+ fixed Canopy misfiled under Bronx); car-day-trips += SI + Coney days, beyond-the-city notes
+- 2026-07-02T18:00:00Z | UPDATE | redesign — Space Grotesk + Inter (vendored, replacing Fredoka/Nunito), modern neutral theme w/ indigo accent across site CSS + map; CMA excluded (closed permanently Oct 2024)
+- 2026-07-02T18:00:00Z | UPDATE | index (59 places, 5 boroughs, 30 nbhds, 5 guides); map rebuilt (58 pins)

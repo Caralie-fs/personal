@@ -115,9 +115,9 @@ When asked to "add X":
 
 ## The Map
 
-Five Leaflet maps share one engine (`map/map.js` + `map/map.css`):
+Six Leaflet maps share one engine (`map/map.js` + `map/map.css`):
 `map.html` (all NYC) and `manhattan.html` / `brooklyn.html` / `queens.html` /
-`bronx.html` (borough-filtered), with a borough switcher. Each reads two generated JS files
+`bronx.html` / `staten-island.html` (borough-filtered), with a borough switcher. Each reads two generated JS files
 (loaded as `<script>`, not fetch, so they work over file://):
 
 - `map/places.js` — pins, from place frontmatter via `build_map.py`. Markers are
