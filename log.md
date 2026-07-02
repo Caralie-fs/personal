@@ -85,3 +85,7 @@ Types: ADD, UPDATE, GUIDE, NEIGHBORHOOD, REMOVE.
 - 2026-07-02T22:00:00Z | UPDATE | wider layout — wrap 860→1160px, font 15.5→16px, roomier cards; prose capped at 78ch for readability; added styled tables; borough cards larger
 - 2026-07-02T22:00:00Z | FIX | commute guide stops rendered as literal dashes (list followed an intro sentence with no blank line) — added blank lines so they render as real bullets; restructured each stop as a bullet with a nested detail sub-bullet
 - 2026-07-02T22:30:00Z | UPDATE | homepage — guides now render as cards (NJ Commute Stops first), Citywide moved below Guides, trimmed the "pick a card / broken out by category / CLAUDE.md" intro copy
+- 2026-07-02T23:00:00Z | ADD | Williamsburg restaurants w/ kids menus: jacks-wife-freda (258 Wythe), kings-county-imperial, kfar (The Hoxton) — Wburg + Brooklyn hubs updated
+- 2026-07-02T23:00:00Z | GUIDE | free-activities.md — built out Free Museum Hours (Brooklyn Children's, AMNH resident PWYW, NYSCI, CMOM, SI Children's, BBG); all verify-flagged; reciprocal backlinks added to those pages
+- 2026-07-02T23:00:00Z | GUIDE | williamsburg-weekends.md — pruned past weekend (Jun 27–28); Jul 4–5 is now "this weekend"; bumped updated date
+- 2026-07-02T23:00:00Z | UPDATE | index (70 places, Brooklyn card 35)

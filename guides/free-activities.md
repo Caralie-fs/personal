@@ -55,7 +55,35 @@ times, sprinklers, and free museum hours.
   — free, recurring, Brooklyn (BPL) branches. **(walkable from home)**
 
 ## Free Museum Hours
-- _(add museums with free/community hours — cross-link from their pages)_
+Free or pay-what-you-wish windows at the kids' museums in this wiki. **These
+programs change constantly — confirm on the museum's own site before you count
+on one.** (Reserve ahead where noted; free slots fill up.)
+
+- [Brooklyn Children's Museum](../places/museum-brooklyn-childrens.md) — has run
+  a **free weekday-afternoon window** (recently Thursdays ~2–5pm, sponsor-backed);
+  reserve or walk in. Confirm the current day/hours. **(Crown Heights)**
+- [American Museum of Natural History (AMNH)](../places/museum-amnh.md) —
+  **NY / NJ / CT residents can pay what they wish** for general admission (not
+  special exhibits or ticketed shows). Bring proof of residency; verify the
+  current policy. **(UWS)**
+- [New York Hall of Science (NYSCI)](../places/museum-nysci.md) — has offered
+  **free hours** (historically Friday afternoons + Sunday mornings). Confirm the
+  current free schedule before relying on it. **(Corona)**
+- [Children's Museum of Manhattan (CMOM)](../places/museum-cmom.md) — check for
+  current **free / pay-what-you-wish community hours** (it's offered free
+  evenings in the past). **(UWS)**
+- [Staten Island Children's Museum](../places/museum-si-childrens-museum.md) —
+  ask about **free / discount community days**. Verify. **(Snug Harbor)**
+
+Garden with a free window (not a museum, but same idea):
+- [Brooklyn Botanic Garden](../places/garden-brooklyn-botanic.md) — **free
+  weekday admission in winter**, plus a recurring **free window** other seasons
+  (historically weekday mornings / one weekday). Confirm current free days/hours.
+  **(Prospect Park)**
+
+*Beyond the toddler museums, several big NYC museums have standing free hours
+(e.g. Brooklyn Museum's first-Saturday evenings) — nice for a solo/older-kid
+outing; check each museum's site.*
 
 ---
 *Add a place here whenever it's tagged `free`. Link back from the place's

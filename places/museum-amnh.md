@@ -45,6 +45,7 @@ must-sees (dinos + whale) rather than trying to do it all.
 - Rainy-day powerhouse.
 
 ## Relationships
+- Listed in [Free Activities Guide](../guides/free-activities.md) — resident pay-what-you-wish
 - In [Upper West Side](neighborhood-uws.md)
 - Listed in [Rainy-Day Guide](../guides/rainy-day.md)
 - Near [Alice's Tea Cup (UWS)](restaurant-alices-tea-cup-uws.md)

@@ -43,6 +43,7 @@ touch everything. Expect 1.5–2 hours.
 - Destination outing, not nap-compatible.
 
 ## Relationships
+- Listed in [Free Activities Guide](../guides/free-activities.md) — free weekday-afternoon window
 - In [Crown Heights](neighborhood-crown-heights.md)
 - Listed in [Rainy-Day Guide](../guides/rainy-day.md)
 

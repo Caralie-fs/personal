@@ -42,6 +42,9 @@ the Brooklyn Bridge Park waterfront, a children's museum, and Prospect Park.
 - [Café Mogador](restaurant-cafe-mogador.md) — `$$` · Moroccan · high chairs
 - [Teddy's Bar & Grill](restaurant-teddys-williamsburg.md) — `$$` · oldest bar in Wburg · family brunch
 - [Kellogg's Diner](restaurant-kelloggs-diner-williamsburg.md) — `$$` · 24-hr diner · all-day comfort food
+- [Jack's Wife Freda](restaurant-jacks-wife-freda-williamsburg.md) — `$$` · all-day Mediterranean · kids menu
+- [Kings County Imperial](restaurant-kings-county-imperial-williamsburg.md) — `$$` · family-style Chinese · high chairs
+- [K'Far (The Hoxton)](restaurant-kfar-williamsburg.md) — `$$` · all-day Israeli cafe · pastry case
 - [Smorgasburg](event-smorgasburg.md) — `$$` · weekend food market · outdoor
 
 ## [Brooklyn Heights / DUMBO](neighborhood-dumbo.md)

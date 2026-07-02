@@ -36,6 +36,9 @@ with toddler options, most of them walkable or a short stroller push.
 - [Café Mogador](restaurant-cafe-mogador.md) — kid-friendly Moroccan, high chairs · `$$`
 - [Teddy's Bar & Grill](restaurant-teddys-williamsburg.md) — oldest bar in Williamsburg, family brunch · `$$`
 - [Kellogg's Diner](restaurant-kelloggs-diner-williamsburg.md) — revamped 24-hr diner, all-day comfort food · `$$`
+- [Jack's Wife Freda](restaurant-jacks-wife-freda-williamsburg.md) — all-day Mediterranean, kids menu + crayons · `$$`
+- [Kings County Imperial](restaurant-kings-county-imperial-williamsburg.md) — roomy family-style Chinese, high chairs · `$$`
+- [K'Far (The Hoxton)](restaurant-kfar-williamsburg.md) — colorful all-day Israeli cafe, big pastry case · `$$`
 - [Smorgasburg](event-smorgasburg.md) — weekend open-air food market · seasonal
 
 ## Upcoming events
