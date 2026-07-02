@@ -34,6 +34,8 @@ Everything here is indoor (or weather-flexible).
   playspace, North Williamsburg. **(walkable from home)**
 - [Twinkle Playspace](../places/indoor-play-twinkle-williamsburg.md) —
   East Williamsburg; imaginative sets, ages ≤6. **(walkable from home)**
+- [Tiny Hearts Play Cafe](../places/indoor-play-tiny-hearts-williamsburg.md) —
+  Williamsburg; Montessori play cafe, ages ≤6, sit with coffee. **(walkable from home)**
 - [Space Club (Greenpoint)](../places/indoor-play-space-club-greenpoint.md) —
   star ball pit, design-forward, true drop-in.
 - [Space Club (Fort Greene)](../places/indoor-play-space-club-fort-greene.md) —
