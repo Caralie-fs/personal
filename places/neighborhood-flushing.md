@@ -9,9 +9,7 @@ Eastern Queens hub — home to the Queens Botanical Garden and endless great foo
 
 ## Places here
 
-### 🎠 Attractions & Animals
-- [Queens Botanical Garden](garden-queens-botanical.md) — friendly garden, lawns + family programs · `$`
-- [Queens Botanical Garden](garden-queens-botanical.md) — friendly garden + family programs · $
+[[PLACES_TABLE]]
 
 ## Notes
 - 7 train to Flushing–Main St; parking findable on the garden's edge.

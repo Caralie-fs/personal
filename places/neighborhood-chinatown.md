@@ -10,8 +10,7 @@ that toddlers love.
 
 ## Places here
 
-### 🍴 Kid-Friendly Food
-- [Nom Wah Tea Parlor](restaurant-nom-wah-chinatown.md) — century-old dim sum, fast + shareable · `$$`
+[[PLACES_TABLE]]
 
 ## Notes
 - Dim sum + bakery buns = ideal grab-and-go toddler food.

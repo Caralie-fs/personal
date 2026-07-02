@@ -9,14 +9,7 @@ The park itself — zoo, playgrounds, and open space in the middle of Manhattan.
 
 ## Places here
 
-### 🛝 Playgrounds & Parks
-- [Heckscher Playground](playground-heckscher.md) — the park's largest playground · free
-- [Billy Johnson Playground](playground-billy-johnson.md) — granite slide + toddler climber · free · outdoor
-- [Diana Ross Playground](playground-diana-ross.md) — big sandbox + wooden structures · free · outdoor
-
-### 🎠 Attractions & Animals
-- [Central Park Zoo](attraction-central-park-zoo.md) — small, walkable zoo + Children's Zoo · `$$`
-- [Central Park Carousel](attraction-central-park-carousel.md) — classic antique carousel · `$`
+[[PLACES_TABLE]]
 
 ## Notes
 - Chain Heckscher Playground → Carousel → Zoo for a full park day.

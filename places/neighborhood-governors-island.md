@@ -10,8 +10,7 @@ A car-free island in the harbor (a short ferry from Lower Manhattan / Brooklyn)
 
 ## Places here
 
-### 🎠 Attractions & Animals
-- [Governors Island](attraction-governors-island.md) — Slide Hill (57-ft slide!), Hammock Grove, The Yard adventure playground · `$` · seasonal
+[[PLACES_TABLE]]
 
 ## Notes
 - **Seasonal** (roughly May–Oct). Ferry from the Battery Maritime Building

@@ -9,8 +9,7 @@ Cultural-center campus of gardens and museums on Staten Island's north shore —
 
 ## Places here
 
-### 🎨 Museums
-- [Staten Island Children's Museum](museum-si-childrens-museum.md) — hands-on, indoor + outdoor exhibits · `$$` · closed Mon-Tue
+[[PLACES_TABLE]]
 
 ## Notes
 - Snug Harbor's grounds (botanical gardens, the Connie Gretz Secret Garden with a hedge maze!) are free to wander.

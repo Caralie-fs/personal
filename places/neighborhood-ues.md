@@ -9,11 +9,7 @@ Central Park's east side, with classic playgrounds and the big museums nearby.
 
 ## Places here
 
-### 🛝 Playgrounds & Parks
-- [Ancient Playground (Central Park)](playground-ancient-central-park.md) — free, outdoor, sprinklers
-
-### 🍴 Kid-Friendly Food
-- [Serendipity 3](restaurant-serendipity-ues.md) — whimsical desserts (Frozen Hot Chocolate) · `$$`
+[[PLACES_TABLE]]
 
 ## Notes
 - Easy to combine a playground morning with a short museum stop.

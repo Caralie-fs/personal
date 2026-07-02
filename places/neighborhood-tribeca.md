@@ -10,11 +10,7 @@ toddler playgrounds in the city.
 
 ## Places here
 
-### 🛝 Playgrounds & Parks
-- [Pier 25 Playground](playground-pier-25-tribeca.md) — Hudson River Park: rock wall, water play, merry-go-round, mini-golf · free
-
-### 🍴 Kid-Friendly Food
-- [Bubby's (Tribeca)](restaurant-bubbys-tribeca.md) — original Bubby's, pancakes + pies · `$$`
+[[PLACES_TABLE]]
 
 ## Notes
 - Hudson River Park's greenway makes for a long, flat, stroller-friendly walk.

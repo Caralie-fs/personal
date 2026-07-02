@@ -14,55 +14,9 @@ animals, and huge parks.
 
 [Open the full-screen Queens map →](../map/queens.html)
 
-## [Long Island City](neighborhood-long-island-city.md)
+## Places
 
-### 🛝 Playgrounds & Parks
-- [Gantry Plaza State Park](playground-gantry-plaza-lic.md) — free · waterfront · skyline views
-- [Hunter's Point South Park](playground-hunters-point-south-lic.md) — free · waterfront · skyline · lawn
-
-### 🎠 Attractions & Animals
-- [Socrates Sculpture Park](attraction-socrates-sculpture-park.md) — free · outdoor art · family workshops
-
-### 🏠 Indoor Play Spaces
-- [Kanga's Indoor Playcenter & Cafe](indoor-play-kangas-lic.md) — `$$` · playcenter + cafe · drop-in
-- [Peekaboo Playground](indoor-play-peekaboo-lic.md) — `$$` · castle theme · ages ≤7
-
-### 🎨 Museums
-- [MoMA PS1](museum-moma-ps1-lic.md) — free · free · art · courtyard
-- [The Noguchi Museum](museum-noguchi-lic.md) — `$$` · sculpture · garden · family programs
-
-## [Corona](neighborhood-corona.md)
-
-### 🎨 Museums
-- [New York Hall of Science (NYSCI)](museum-nysci.md) — `$$` · science · seasonal playground
-- [Queens Museum](museum-queens-museum.md) — `$$` · Panorama · art lab · free Fri (NY res)
-
-### 🛝 Playgrounds & Parks
-- [Flushing Meadows–Corona Park](attraction-flushing-meadows.md) — free · huge park · 🚗
-
-### 🎠 Attractions & Animals
-- [Queens Zoo](attraction-queens-zoo.md) — `$$` · small zoo + petting · 🚗
-
-### 🍴 Kid-Friendly Food
-- [Leo's Latticini (Mama's of Corona)](restaurant-leos-latticini-corona.md) — `$$` · deli · picnic heroes
-
-## [Astoria](neighborhood-astoria.md)
-
-### 🏠 Indoor Play Spaces
-- [Bounce 'N Play](indoor-play-bounce-n-play-astoria.md) — `$$` · bounce + climb · 6-and-under sessions
-
-### 🎨 Museums
-- [Museum of the Moving Image](museum-moving-image-astoria.md) — `$$` · interactive · Muppets · free Thu
-
-## [Flushing](neighborhood-flushing.md)
-
-### 🎠 Attractions & Animals
-- [Queens Botanical Garden](garden-queens-botanical.md) — `$` · friendly garden · lawns + family programs
-
-## [Glen Oaks](neighborhood-glen-oaks.md) 🚗
-
-### 🎠 Attractions & Animals
-- [Queens County Farm Museum](attraction-queens-county-farm.md) — free · farm animals · free parking
+[[PLACES_TABLE]]
 
 ## Relationships
 - Back to the [homepage](../index.md) · other boroughs: [Brooklyn](borough-brooklyn.md) · [Manhattan](borough-manhattan.md) · [The Bronx](borough-bronx.md) · [Staten Island](borough-staten-island.md)
