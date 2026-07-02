@@ -21,12 +21,18 @@ SITE = ROOT / "site"
 CSS = """
 *{box-sizing:border-box}
 :root{--ink:#18181b;--muted:#71717a;--faint:#a1a1aa;--line:#e4e4e7;--line-soft:#ececee;--bg:#f7f7f8;--card:#ffffff;--accent:#4f46e5;--accent-soft:#eef2ff;}
-body{margin:0;background:var(--bg);font-family:'Inter',system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;color:var(--ink);font-size:15.5px;line-height:1.65;-webkit-font-smoothing:antialiased;}
+body{margin:0;background:var(--bg);font-family:'Inter',system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;color:var(--ink);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;}
 .nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.86);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);color:var(--ink);padding:12px 20px;display:flex;gap:20px;align-items:center;font-size:13.5px;font-family:'Space Grotesk','Inter',system-ui,sans-serif;}
 .nav a{color:var(--ink);text-decoration:none;font-weight:500;} .nav a:hover{color:var(--accent);}
 .nav .brand{font-size:15px;font-weight:700;letter-spacing:-.01em;} .nav .sp{flex:1;}
-.wrap{max-width:860px;margin:0 auto;padding:28px 24px 56px;}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:36px 40px;margin-top:16px;box-shadow:0 1px 2px rgba(0,0,0,.04);}
+.wrap{max-width:1160px;margin:0 auto;padding:30px 28px 64px;}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:40px 52px;margin-top:16px;box-shadow:0 1px 2px rgba(0,0,0,.04);}
+/* Keep flowing prose readable even in the wide card; let grids/tables/media span full width. */
+.card > p, .card > ul, .card > ol, .card > blockquote{max-width:78ch;}
+.card table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14.5px;}
+.card th,.card td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--line-soft);}
+.card th{font-family:'Space Grotesk','Inter',system-ui,sans-serif;font-weight:600;color:var(--muted);font-size:12.5px;letter-spacing:.03em;text-transform:uppercase;}
+.card tr:hover td{background:#fafafa;}
 h1,h2,h3{line-height:1.25;color:var(--ink);font-family:'Space Grotesk','Inter',system-ui,sans-serif;}
 h1{font-size:30px;font-weight:700;letter-spacing:-.02em;margin-top:0;margin-bottom:.5em;}
 h2{font-size:20px;font-weight:600;letter-spacing:-.01em;border-bottom:1px solid var(--line-soft);padding-bottom:.35em;margin-top:36px;}
@@ -42,7 +48,7 @@ ul{padding-left:1.35em;} li{margin:.25em 0;} hr{border:none;border-top:1px solid
 .badge{font-size:11.5px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:3px 11px;}
 .verify{background:#fffbeb;border:1px solid #fde68a;border-left:3px solid #f59e0b;border-radius:10px;padding:12px 16px;margin:16px 0;font-size:13px;} .verify b{color:#92400e;}
 blockquote{margin:0;padding:0 1em;color:var(--muted);border-left:3px solid var(--line);}
-.borough-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:20px 0;}
+.borough-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:22px 0;}
 .bcard{display:block;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 18px;text-decoration:none;
   box-shadow:0 1px 2px rgba(0,0,0,.04);transition:transform .12s ease,box-shadow .12s ease,border-color .12s ease;}
 .bcard:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(24,24,27,.08);border-color:var(--accent);text-decoration:none;}
@@ -92,13 +98,13 @@ def render(rel, prefix):
         badge = f'<span class="badge">{html.escape(fm["type"])}</span>'
         head = f'<div class="title-row"><h1>{emoji} {html.escape(str(title))}</h1>{badge}</div>'
     body_html = rewrite_links(markdown.markdown(body, extensions=["extra","sane_lists","nl2br"]))
-    nav = (f'<div class="nav"><a class="brand" href="{prefix}index.html">🗽 Toddler NYC</a>'
+    nav = (f'<div class="nav"><a class="brand" href="{prefix}index.html">🗽 Toddler Guide NYC</a>'
            f'<a href="{prefix}index.html">Home</a><a href="{prefix}map/map.html">🗺️ Map</a>'
            f'<span class="sp"></span><span style="color:#a1a1aa;font-size:12px">{html.escape(rel)}</span></div>')
     return (f'<!doctype html><html><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width, initial-scale=1">'
             f'<link rel="stylesheet" href="{prefix}assets/fonts/fonts.css">'
-            f'<title>{html.escape(str(title))} · Toddler NYC</title><style>{CSS}</style></head><body>'
+            f'<title>{html.escape(str(title))} · Toddler Guide NYC</title><style>{CSS}</style></head><body>'
             f'{nav}<div class="wrap"><div class="card">{head}{render_meta(fm)}{body_html}</div></div></body></html>')
 
 def main():

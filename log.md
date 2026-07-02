@@ -81,3 +81,6 @@ Types: ADD, UPDATE, GUIDE, NEIGHBORHOOD, REMOVE.
 - 2026-07-02T20:00:00Z | UPDATE | index (67 places, Brooklyn card 32); free-activities += 5 playgrounds; rainy-day += Tiny Hearts; map rebuilt
 - 2026-07-02T21:00:00Z | GUIDE | commute-aberdeen-nj.md — added small low-detour NYC playgrounds as traffic-reprieve stops: SI (Bloomingdale, Schmul), Brooklyn BQE (Leif Ericson, Coffey Park, Harold Ickes, Carroll Park, Cobble Hill Park, Sternberg Park); ⚡ ≤5-min flags + quickest-reprieve cheatsheet table + restroom caveat
 - 2026-07-02T21:30:00Z | UPDATE | index.md — retitled homepage "Toddler Guide NYC"; intro copy now "a knowledge base, organized by borough, of things to do with toddlers in NYC"
+- 2026-07-02T22:00:00Z | UPDATE | site-wide brand "Toddler NYC" → "Toddler Guide NYC" (build_site nav + tab titles; all 6 map pages' panel h1 + titles)
+- 2026-07-02T22:00:00Z | UPDATE | wider layout — wrap 860→1160px, font 15.5→16px, roomier cards; prose capped at 78ch for readability; added styled tables; borough cards larger
+- 2026-07-02T22:00:00Z | FIX | commute guide stops rendered as literal dashes (list followed an intro sentence with no blank line) — added blank lines so they render as real bullets; restructured each stop as a bullet with a nested detail sub-bullet
