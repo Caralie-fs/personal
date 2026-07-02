@@ -84,3 +84,4 @@ Types: ADD, UPDATE, GUIDE, NEIGHBORHOOD, REMOVE.
 - 2026-07-02T22:00:00Z | UPDATE | site-wide brand "Toddler NYC" → "Toddler Guide NYC" (build_site nav + tab titles; all 6 map pages' panel h1 + titles)
 - 2026-07-02T22:00:00Z | UPDATE | wider layout — wrap 860→1160px, font 15.5→16px, roomier cards; prose capped at 78ch for readability; added styled tables; borough cards larger
 - 2026-07-02T22:00:00Z | FIX | commute guide stops rendered as literal dashes (list followed an intro sentence with no blank line) — added blank lines so they render as real bullets; restructured each stop as a bullet with a nested detail sub-bullet
+- 2026-07-02T22:30:00Z | UPDATE | homepage — guides now render as cards (NJ Commute Stops first), Citywide moved below Guides, trimmed the "pick a card / broken out by category / CLAUDE.md" intro copy
