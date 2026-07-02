@@ -16,3 +16,6 @@ playgrounds, and river views.
 ## Notes
 - The Hudson esplanade is a lovely flat stroller walk.
 - Paid garages; transit/ferry easier than driving.
+
+## Relationships
+- Part of **[Manhattan](borough-manhattan.md)**

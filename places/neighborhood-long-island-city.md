@@ -19,3 +19,6 @@ Queens waterfront across from Midtown — one ferry stop from North Williamsburg
 - Closest "other borough" trip from Williamsburg — ferry or a short drive over
   the Pulaski Bridge.
 - By car: metered street parking usually findable.
+
+## Relationships
+- Part of **[Queens](borough-queens.md)**

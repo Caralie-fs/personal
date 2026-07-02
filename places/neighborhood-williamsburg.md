@@ -51,3 +51,6 @@ with toddler options, most of them walkable or a short stroller push.
 - Indoor play: [The Canopy NYC](indoor-play-canopy.md) is the toddler pick.
   (The Play Lab closed Oct 2025; Metropolitan Rec Center pool is closed for
   renovation — both off the list for now.)
+
+## Relationships
+- Part of **[Brooklyn](borough-brooklyn.md)**

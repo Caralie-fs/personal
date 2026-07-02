@@ -14,3 +14,6 @@ Leafy NW Bronx neighborhood above the Hudson — home to Wave Hill.
 
 ## Notes
 - Easiest by car (free on-site parking) — ≈30–40 min from Williamsburg.
+
+## Relationships
+- Part of **[The Bronx](borough-bronx.md)**

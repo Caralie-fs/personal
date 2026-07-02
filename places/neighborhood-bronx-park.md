@@ -15,3 +15,6 @@ Home to the Bronx Zoo and the New York Botanical Garden — big green-space days
 
 ## Notes
 - Zoo + Botanical Garden are adjacent — a big Bronx day by car (parking at both).
+
+## Relationships
+- Part of **[The Bronx](borough-bronx.md)**

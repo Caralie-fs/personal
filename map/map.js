@@ -74,7 +74,8 @@
   const sw = document.getElementById("boroughs");
   if (sw) {
     const tabs = [["", "All NYC", "map.html"], ["Manhattan", "Manhattan", "manhattan.html"],
-                  ["Brooklyn", "Brooklyn", "brooklyn.html"], ["Queens", "Queens", "queens.html"]];
+                  ["Brooklyn", "Brooklyn", "brooklyn.html"], ["Queens", "Queens", "queens.html"],
+                  ["Bronx", "Bronx", "bronx.html"]];
     sw.innerHTML = tabs.map(([b, label, href]) =>
       `<a class="tab${(BOROUGH || "") === b ? " active" : ""}" href="${href}">${label}</a>`).join("");
   }

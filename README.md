@@ -29,7 +29,7 @@ toddler-nyc/
 
 Open [`map/map.html`](map/map.html) (all NYC) or the per-borough maps
 [`manhattan.html`](map/manhattan.html) / [`brooklyn.html`](map/brooklyn.html) /
-[`queens.html`](map/queens.html) — a borough switcher links between them. Every
+[`queens.html`](map/queens.html) / [`bronx.html`](map/bronx.html) — a borough switcher links between them. Every
 place is pinned and colored by category, with filters and links back to each
 page. After adding or moving a place, regenerate the data:
 

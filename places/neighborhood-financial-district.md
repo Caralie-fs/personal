@@ -16,3 +16,6 @@ Manhattan's tip — harbor views, The Battery, and the free Staten Island Ferry.
 - The free Staten Island Ferry (big boat, harbor + Statue views) is a great
   add-on for little kids.
 - Garages are pricey — transit is easier.
+
+## Relationships
+- Part of **[Manhattan](borough-manhattan.md)**

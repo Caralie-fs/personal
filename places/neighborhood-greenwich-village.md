@@ -15,3 +15,6 @@ Lively downtown neighborhood around Washington Square Park.
 ## Notes
 - Endless casual food nearby (pizza, ice cream) for a post-park treat.
 - Transit only — no good parking.
+
+## Relationships
+- Part of **[Manhattan](borough-manhattan.md)**

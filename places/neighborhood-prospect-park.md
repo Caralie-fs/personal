@@ -16,3 +16,6 @@ Brooklyn's great park and its neighbor the Botanic Garden — an easy combo day.
 ## Notes
 - Chain the Children's Corner (zoo + carousel) with the Botanic Garden next door.
 - By car: street parking around the park; BBG has a paid lot.
+
+## Relationships
+- Part of **[Brooklyn](borough-brooklyn.md)**
